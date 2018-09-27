@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>预览页面</title>
+</head>
+<body>
+  <!-- <a href="{:U('Test/test_referer_header')}">跳转</a> -->
+   <p>這裡不會被刷新</p>
+   <div id="txt">原來內容</div>
+   <input type="button" value="刷新內容" onclick="show()">
+   <input type="button" value="POST提交" onclick="post_show()">
+   <input type="button" name='start_timer' value="开启定时器" onclick="setTimeTask()" style="display: none;">
+   <input type="button" name='stop_timer' value="停止定时器" onclick="stop_timer()">
+   <br/>
+   <input type="text" name="project" id="inputString" onkeyup="lookup(this.value);" onblur="fill();" />
+   <div class="suggestionsBox" id="suggestions" style="display: none;">
+        <div class="suggestionList" id="autoSuggestionsList"></div>
+   </div>
+   <input type="hidden" value="{:U('Test/get_json_data')}" name='go_url'>
+</body>
+<!-- <script type="text/javascript">
+	window.location ="http://www.yueus.com/mall/user/topic/index.php?topic_id=757&online=1";
+</script> -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        setTimeTask();
+    });
+
+	var go_url = $("input[name='go_url']").val();
+	console.log(go_url);
+    function show(){
+        $.get( go_url, function(data) {
+            $('#txt').html(data.content);
+        }, "json" );
+    }
+    function post_show(){
+    	var go_url = $("input[name='go_url']").val();
+    	var post = new Array("Saab","Volvo","BMW");
+	
+    	console.log(post);
+    	$.ajax({
+	        type: "POST",
+	        url: go_url,
+	        //contentType: "application/json",
+	        //data:JSON.stringify(post), //JS 转json
+	        data:{name:"sanmao",password:"sanmaoword"},
+	        datatype: "json",
+	        beforeSend: function() { 
+               //$("#txt").before("<div>信息发送中...</div>");//追加元素
+               alert("发送中...");//追加元素
+            }, 
+	        success: function (data){
+	        	data = $.parseJSON(data); 
+	            console.log(data);
+	            //$("#txt").append("<div>数据:"+data.name+"</div>");//追加内容
+	            $("#txt").after("<div>数据:"+data.content+"</div>");//追加元素
+	        },
+	        error: function (obj, msg, info) {
+	            //console.log(info);
+	            alert('error');
+	        }
+    	});
+    }
+    function setTimeTask()
+    {
+    	interval = setInterval(mytask,"5000");  // 每5S执行一次 
+    	//interval = setTimeout(mytask,"5000");  // 5S后执行一次 
+    	$("input[name='stop_timer']").show();
+    	$("input[name='start_timer']").hide();
+    }
+    function mytask()
+    {
+    	$.get( go_url, function(data) {
+            console.log(data.content);
+        }, "json" );
+    }
+    function stop_timer()
+    {
+    	window.clearInterval(interval);
+    	//window.clearTimeout(interval);
+    	$("input[name='stop_timer']").hide();
+    	$("input[name='start_timer']").show();
+    }
+</script>
+<script type="text/javascript">
+	//输入文字时触发的事件
+    function lookup(inputString) 
+    {
+        if(inputString.length == 0){
+            $('#suggestions').hide();
+        } else{
+            $.post("{:U('Test/get_title_json_data')}", {name: ""+inputString+""}, function(data){
+            	console.log(data);
+            	var parse_data = JSON.parse(data); //可以将json字符串转换成json对象 
+            	console.log(parse_data);
+                if(data.length >0){
+                    $('#suggestions').show();
+                    $('#autoSuggestionsList').html(data);
+                }
+             });
+         }
+     }
+     //选中其中一个值时触发的事件（可以自己测试）
+     function fill(thisValue) {
+         $('#inputString').val(thisValue);
+         $('#suggestions').hide();
+         setTimeout("$('#suggestions').hide();", 200);    
+         $.ajax({
+             cache: false,
+             type: "post",
+             url: "",
+             dataType: "json",
+             data:{},
+             success: function (msg) {
+             }
+         });
+     }
+</script>
+</html>

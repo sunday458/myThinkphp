@@ -1,0 +1,10 @@
+[ 2018-04-24T11:31:09+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-24 11:31:09 Use 0.029002 s
+
+[ 2018-04-24T11:31:09+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'add_time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `wp_weixin_kf_allot_log` ORDER BY add_time desc,id desc LIMIT 1  
+
+[ 2018-04-24T11:32:25+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-24 11:32:25 Use 0.000000 s
+

@@ -1,0 +1,134 @@
+[ 2017-12-28T09:20:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_birthday_user_list
+ERR: Cron:cron Runat 2017-12-28 09:20:40 Use 0.006001 s
+
+[ 2017-12-28T09:21:16+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_birthday_user_list
+ERR: Cron:cron Runat 2017-12-28 09:21:16 Use 0.000000 s
+
+[ 2017-12-28T11:03:45+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_birthday_user_list
+ERR: Cron:cron Runat 2017-12-28 11:03:45 Use 0.000000 s
+
+[ 2017-12-28T11:51:09+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_emp_data
+ERR: Cron:cron Runat 2017-12-28 11:51:09 Use 0.000000 s
+
+[ 2017-12-28T17:02:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/discipline
+ERR: Cron:cron Runat 2017-12-28 17:02:40 Use 0.001000 s
+
+[ 2017-12-28T17:02:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/discipline
+ERR: 1146:Table 'test.yj_discipline' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yj_discipline`
+
+[ 2017-12-28T17:02:59+08:00 ] ::1 /mythinkphp/index.php/test2/matters/discipline
+ERR: Cron:cron Runat 2017-12-28 17:02:59 Use 0.000000 s
+
+[ 2017-12-28T17:04:08+08:00 ] ::1 /mythinkphp/index.php/test2/matters/discipline
+ERR: Cron:cron Runat 2017-12-28 17:04:08 Use 0.000000 s
+
+[ 2017-12-28T17:04:37+08:00 ] ::1 /mythinkphp/index.php/test2/matters/discipline
+ERR: Cron:cron Runat 2017-12-28 17:04:37 Use 0.001000 s
+
+[ 2017-12-28T17:07:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/discipline
+ERR: Cron:cron Runat 2017-12-28 17:07:35 Use 0.001000 s
+
+[ 2017-12-28T17:08:32+08:00 ] ::1 /mythinkphp/index.php/test2/matters/discipline
+ERR: Cron:cron Runat 2017-12-28 17:08:32 Use 0.000000 s
+
+[ 2017-12-28T17:09:17+08:00 ] ::1 /mythinkphp/index.php/test2/matters/discipline
+ERR: Cron:cron Runat 2017-12-28 17:09:17 Use 0.000000 s
+
+[ 2017-12-28T17:09:59+08:00 ] ::1 /mythinkphp/index.php/test2/matters/discipline
+ERR: Cron:cron Runat 2017-12-28 17:09:59 Use 0.000000 s
+
+[ 2017-12-28T17:10:26+08:00 ] ::1 /mythinkphp/index.php/test2/matters/discipline
+ERR: Cron:cron Runat 2017-12-28 17:10:26 Use 0.000000 s
+
+[ 2017-12-28T17:22:02+08:00 ] ::1 /mythinkphp/index.php/test2/matters/discipline
+ERR: Cron:cron Runat 2017-12-28 17:22:02 Use 0.000000 s
+
+[ 2017-12-28T17:22:02+08:00 ] ::1 /mythinkphp/index.php/test2/matters/discipline
+ERR: 非法操作:discipline
+
+[ 2017-12-28T17:22:15+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_discipline
+ERR: Cron:cron Runat 2017-12-28 17:22:15 Use 0.001000 s
+
+[ 2017-12-28T17:31:00+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_discipline
+ERR: Cron:cron Runat 2017-12-28 17:31:00 Use 0.001000 s
+
+[ 2017-12-28T17:32:33+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:32:33 Use 0.000000 s
+
+[ 2017-12-28T17:32:33+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: 1054:Unknown column 'a.name' in 'field list'
+ [ SQL语句 ] : SELECT a.id as disc_id,a.type,a.name,a.add_time,a.num,a.reason,e.name as user_name,d.name as dep_name FROM yj_discipline_log a  LEFT JOIN employee e ON a.e_id=e.id   LEFT JOIN department d ON a.dep_id = d.id   ORDER BY a.add_time,a.id DESC 
+
+[ 2017-12-28T17:32:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:32:50 Use 0.000000 s
+
+[ 2017-12-28T17:32:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: 1054:Unknown column 'a.dep_id' in 'on clause'
+ [ SQL语句 ] : SELECT a.id as disc_id,a.type,a.e_id,a.add_time,a.num,a.reason,e.name as user_name,d.name as dep_name FROM yj_discipline_log a  LEFT JOIN employee e ON a.e_id=e.id   LEFT JOIN department d ON a.dep_id = d.id   ORDER BY a.add_time,a.id DESC 
+
+[ 2017-12-28T17:33:56+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:33:56 Use 0.001000 s
+
+[ 2017-12-28T17:34:08+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:34:08 Use 0.000000 s
+
+[ 2017-12-28T17:34:28+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:34:28 Use 0.001000 s
+
+[ 2017-12-28T17:35:15+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:35:15 Use 0.000000 s
+
+[ 2017-12-28T17:35:57+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:35:57 Use 0.000000 s
+
+[ 2017-12-28T17:36:31+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:36:31 Use 0.001000 s
+
+[ 2017-12-28T17:44:19+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:44:19 Use 0.000000 s
+
+[ 2017-12-28T17:44:34+08:00 ] ::1 /mythinkphp/index.php/test2/matters/del_my_discipline/d_id=10
+ERR: Cron:cron Runat 2017-12-28 17:44:34 Use 0.000000 s
+
+[ 2017-12-28T17:44:34+08:00 ] ::1 /mythinkphp/index.php/test2/matters/del_my_discipline/d_id=10
+ERR: 参数错误或者未定义:d_id
+
+[ 2017-12-28T17:45:08+08:00 ] ::1 /mythinkphp/index.php/test2/matters/del_my_discipline/d_id=10
+ERR: Cron:cron Runat 2017-12-28 17:45:08 Use 0.000000 s
+
+[ 2017-12-28T17:46:00+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:46:00 Use 0.000000 s
+
+[ 2017-12-28T17:46:00+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: 1054:Unknown column 'a.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `yj_discipline_log` WHERE a.status = 1 ORDER BY num,add_time desc 
+
+[ 2017-12-28T17:46:27+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:46:27 Use 0.001000 s
+
+[ 2017-12-28T17:46:53+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:46:53 Use 0.001000 s
+
+[ 2017-12-28T17:46:54+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: 1054:Unknown column 'a.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `yj_discipline_log` WHERE a.status = 1 ORDER BY num,add_time desc 
+
+[ 2017-12-28T17:47:09+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:47:09 Use 0.000000 s
+
+[ 2017-12-28T17:47:09+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: 1054:Unknown column 'a.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `yj_discipline_log` WHERE a.status = 1 ORDER BY num,add_time desc 
+
+[ 2017-12-28T17:47:10+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: 1054:Unknown column 'a.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `yj_discipline_log` WHERE a.status = 1 ORDER BY num,add_time desc 
+
+[ 2017-12-28T17:47:11+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: 1054:Unknown column 'a.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `yj_discipline_log` WHERE a.status = 1 ORDER BY num,add_time desc 
+
+[ 2017-12-28T17:47:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/my_discipline_list
+ERR: Cron:cron Runat 2017-12-28 17:47:42 Use 0.000000 s
+

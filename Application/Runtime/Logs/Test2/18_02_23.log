@@ -1,0 +1,83 @@
+[ 2018-02-23T11:29:22+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-23 11:29:22 Use 0.006000 s
+
+[ 2018-02-23T11:29:44+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-23 11:29:44 Use 0.001000 s
+
+[ 2018-02-23T11:34:33+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-23 11:34:33 Use 0.000000 s
+
+[ 2018-02-23T11:34:34+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: 1048:Column 'goods_name' cannot be null
+ [ SQL语句 ] : INSERT INTO `mall_exchange_code_tbl` (`exchange_opp_id`,`code`,`goods_id`,`goods_name`,`user_id`,`type_id`,`add_time`) VALUES ('7','5vgnYULk','1',NULL,'3','2','1519356874')
+
+[ 2018-02-23T11:37:32+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-23 11:37:32 Use 0.000000 s
+
+[ 2018-02-23T11:37:32+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: 1054:Unknown column 'title' in 'field list'
+ [ SQL语句 ] : SELECT `title` FROM `mall_goods_tbl` WHERE `id` = 1 LIMIT 1  
+
+[ 2018-02-23T11:38:18+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-23 11:38:18 Use 0.001000 s
+
+[ 2018-02-23T13:46:27+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:46:27 Use 0.001000 s
+
+[ 2018-02-23T13:46:27+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: 参数错误或者未定义:v
+
+[ 2018-02-23T13:46:43+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:46:43 Use 0.000000 s
+
+[ 2018-02-23T13:47:04+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:47:04 Use 0.001000 s
+
+[ 2018-02-23T13:47:30+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:47:30 Use 0.001001 s
+
+[ 2018-02-23T13:47:58+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:47:58 Use 0.000000 s
+
+[ 2018-02-23T13:48:48+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:48:48 Use 0.000000 s
+
+[ 2018-02-23T13:49:17+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:49:17 Use 0.001000 s
+
+[ 2018-02-23T13:49:34+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:49:34 Use 0.001000 s
+
+[ 2018-02-23T13:50:13+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:50:13 Use 0.001000 s
+
+[ 2018-02-23T13:50:23+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:50:23 Use 0.001000 s
+
+[ 2018-02-23T13:51:28+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:51:28 Use 0.000000 s
+
+[ 2018-02-23T13:52:19+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:52:19 Use 0.000000 s
+
+[ 2018-02-23T13:52:39+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:52:39 Use 0.001000 s
+
+[ 2018-02-23T13:57:54+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:57:54 Use 0.000000 s
+
+[ 2018-02-23T13:58:50+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:58:50 Use 0.000000 s
+
+[ 2018-02-23T13:59:16+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 13:59:16 Use 0.000000 s
+
+[ 2018-02-23T15:21:53+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 15:21:53 Use 0.001000 s
+
+[ 2018-02-23T15:22:15+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 15:22:15 Use 0.000000 s
+
+[ 2018-02-23T15:22:37+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test_d
+ERR: Cron:cron Runat 2018-02-23 15:22:37 Use 0.001000 s
+

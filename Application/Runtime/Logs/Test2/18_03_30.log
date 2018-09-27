@@ -1,0 +1,19 @@
+[ 2018-03-30T10:50:08+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-30 10:50:08 Use 0.001000 s
+
+[ 2018-03-30T10:51:43+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-30 10:51:43 Use 0.000000 s
+
+[ 2018-03-30T10:51:43+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: 1146:Table 'test.ts_employee' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ts_employee`
+
+[ 2018-03-30T10:51:56+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-30 10:51:56 Use 0.000000 s
+
+[ 2018-03-30T11:05:09+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-30 11:05:09 Use 0.000000 s
+
+[ 2018-03-30T11:39:06+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-30 11:39:06 Use 0.000000 s
+

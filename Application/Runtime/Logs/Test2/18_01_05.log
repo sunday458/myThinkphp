@@ -1,0 +1,140 @@
+[ 2018-01-05T08:49:38+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_deparment_month_entry_data
+ERR: Cron:cron Runat 2018-01-05 08:49:38 Use 0.009001 s
+
+[ 2018-01-05T09:08:12+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_deparment_month_entry_data
+ERR: Cron:cron Runat 2018-01-05 09:08:12 Use 0.000000 s
+
+[ 2018-01-05T09:09:27+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:09:27 Use 0.001000 s
+
+[ 2018-01-05T09:10:03+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:10:03 Use 0.001000 s
+
+[ 2018-01-05T09:11:07+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:11:07 Use 0.001000 s
+
+[ 2018-01-05T09:20:16+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:20:16 Use 0.001000 s
+
+[ 2018-01-05T09:20:27+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:20:27 Use 0.001000 s
+
+[ 2018-01-05T09:21:28+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:21:28 Use 0.000000 s
+
+[ 2018-01-05T09:23:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:23:40 Use 0.000000 s
+
+[ 2018-01-05T09:24:15+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:24:15 Use 0.001000 s
+
+[ 2018-01-05T09:27:02+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:27:02 Use 0.000000 s
+
+[ 2018-01-05T09:28:03+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:28:03 Use 0.001000 s
+
+[ 2018-01-05T09:28:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:28:50 Use 0.001000 s
+
+[ 2018-01-05T09:29:59+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:29:59 Use 0.000000 s
+
+[ 2018-01-05T09:30:30+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:30:30 Use 0.000000 s
+
+[ 2018-01-05T09:30:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:30:40 Use 0.000000 s
+
+[ 2018-01-05T09:36:03+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:36:03 Use 0.000000 s
+
+[ 2018-01-05T09:36:19+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 09:36:19 Use 0.000000 s
+
+[ 2018-01-05T10:51:05+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 10:51:05 Use 0.001000 s
+
+[ 2018-01-05T13:42:39+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 13:42:39 Use 0.000000 s
+
+[ 2018-01-05T13:43:14+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 13:43:14 Use 0.000000 s
+
+[ 2018-01-05T14:00:04+08:00 ] ::1 /mythinkphp/index.php/test2/matters/calculation_probability
+ERR: Cron:cron Runat 2018-01-05 14:00:04 Use 0.000000 s
+
+[ 2018-01-05T14:00:05+08:00 ] ::1 /mythinkphp/index.php/Test2/matters/cai_piao_by_ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cp_cai_piao` [ RunTime:0.0080s ]
+SQL: SELECT `one` FROM `cp_cai_piao` ORDER BY one  [ RunTime:0.0030s ]
+SQL: SELECT `two` FROM `cp_cai_piao` ORDER BY two  [ RunTime:0.0030s ]
+SQL: SELECT `three` FROM `cp_cai_piao` ORDER BY three  [ RunTime:0.0030s ]
+SQL: SELECT `four` FROM `cp_cai_piao` ORDER BY four  [ RunTime:0.0040s ]
+SQL: SELECT `five` FROM `cp_cai_piao` ORDER BY five  [ RunTime:0.0030s ]
+SQL: SELECT `six` FROM `cp_cai_piao` ORDER BY six  [ RunTime:0.0030s ]
+SQL: SELECT `seven` FROM `cp_cai_piao` ORDER BY seven  [ RunTime:0.0030s ]
+
+[ 2018-01-05T14:00:05+08:00 ] ::1 /mythinkphp/index.php/Test2/matters/get_data_zishu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cp_cai_piao` [ RunTime:0.0070s ]
+SQL: SELECT `one` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0340s ]
+SQL: SELECT `two` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0060s ]
+SQL: SELECT `three` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0060s ]
+SQL: SELECT `four` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0060s ]
+SQL: SELECT `five` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0060s ]
+SQL: SELECT `six` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0060s ]
+SQL: SELECT `seven` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0060s ]
+
+[ 2018-01-05T14:14:06+08:00 ] ::1 /mythinkphp/index.php/test2/matters/calculation_probability
+ERR: Cron:cron Runat 2018-01-05 14:14:06 Use 0.000000 s
+
+[ 2018-01-05T14:14:07+08:00 ] ::1 /mythinkphp/index.php/Test2/matters/cai_piao_by_ajax.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cp_cai_piao` [ RunTime:0.0080s ]
+SQL: SELECT `one` FROM `cp_cai_piao` ORDER BY one  [ RunTime:0.0050s ]
+SQL: SELECT `two` FROM `cp_cai_piao` ORDER BY two  [ RunTime:0.0040s ]
+SQL: SELECT `three` FROM `cp_cai_piao` ORDER BY three  [ RunTime:0.0050s ]
+SQL: SELECT `four` FROM `cp_cai_piao` ORDER BY four  [ RunTime:0.0040s ]
+SQL: SELECT `five` FROM `cp_cai_piao` ORDER BY five  [ RunTime:0.0030s ]
+SQL: SELECT `six` FROM `cp_cai_piao` ORDER BY six  [ RunTime:0.0030s ]
+SQL: SELECT `seven` FROM `cp_cai_piao` ORDER BY seven  [ RunTime:0.0040s ]
+
+[ 2018-01-05T14:14:07+08:00 ] ::1 /mythinkphp/index.php/Test2/matters/get_data_zishu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `cp_cai_piao` [ RunTime:0.0080s ]
+SQL: SELECT `one` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0060s ]
+SQL: SELECT `two` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0050s ]
+SQL: SELECT `three` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0060s ]
+SQL: SELECT `four` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0060s ]
+SQL: SELECT `five` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0060s ]
+SQL: SELECT `six` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0060s ]
+SQL: SELECT `seven` FROM `cp_cai_piao` ORDER BY expect desc LIMIT 20   [ RunTime:0.0060s ]
+
+[ 2018-01-05T17:24:20+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 17:24:20 Use 0.001000 s
+
+[ 2018-01-05T17:26:31+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 17:26:31 Use 0.000000 s
+
+[ 2018-01-05T17:27:03+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 17:27:03 Use 0.000000 s
+
+[ 2018-01-05T17:27:38+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 17:27:38 Use 0.000000 s
+
+[ 2018-01-05T17:29:33+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-05 17:29:33 Use 0.000000 s
+

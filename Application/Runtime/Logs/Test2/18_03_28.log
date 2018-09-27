@@ -1,0 +1,30 @@
+[ 2018-03-28T09:48:37+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-28 09:48:37 Use 0.007000 s
+
+[ 2018-03-28T09:49:01+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-28 09:49:01 Use 0.000000 s
+
+[ 2018-03-28T09:50:06+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-28 09:50:06 Use 0.000000 s
+
+[ 2018-03-28T09:50:38+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-28 09:50:38 Use 0.000000 s
+
+[ 2018-03-28T09:53:59+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-28 09:53:59 Use 0.001000 s
+
+[ 2018-03-28T09:54:46+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-28 09:54:46 Use 0.000000 s
+
+[ 2018-03-28T09:55:14+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-28 09:55:14 Use 0.001000 s
+
+[ 2018-03-28T09:59:24+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-28 09:59:24 Use 0.000000 s
+
+[ 2018-03-28T09:59:37+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-28 09:59:37 Use 0.000000 s
+
+[ 2018-03-28T10:04:32+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_add_code
+ERR: Cron:cron Runat 2018-03-28 10:04:32 Use 0.000000 s
+

@@ -1,0 +1,112 @@
+[ 2018-06-05T14:03:47+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 14:03:47 Use 0.005001 s
+
+[ 2018-06-05T14:03:57+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 14:03:57 Use 0.001000 s
+
+[ 2018-06-05T14:03:57+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'title' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user` WHERE ( `name` = 1 OR `title` = 1 ) LIMIT 1  
+
+[ 2018-06-05T14:04:08+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 14:04:08 Use 0.000000 s
+
+[ 2018-06-05T14:04:21+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 14:04:21 Use 0.000000 s
+
+[ 2018-06-05T14:10:33+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 14:10:33 Use 0.000000 s
+
+[ 2018-06-05T14:11:03+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 14:11:03 Use 0.000000 s
+
+[ 2018-06-05T14:16:02+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 14:16:02 Use 0.001000 s
+
+[ 2018-06-05T14:16:17+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 14:16:17 Use 0.001000 s
+
+[ 2018-06-05T14:16:17+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 表达式错误:=
+
+[ 2018-06-05T14:16:33+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 14:16:33 Use 0.000000 s
+
+[ 2018-06-05T14:16:33+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user` WHERE `id` = Array 
+
+[ 2018-06-05T14:16:45+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 14:16:45 Use 0.000000 s
+
+[ 2018-06-05T14:16:45+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user` WHERE `id` < Array 
+
+[ 2018-06-05T14:16:46+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user` WHERE `id` < Array 
+
+[ 2018-06-05T14:16:47+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user` WHERE `id` < Array 
+
+[ 2018-06-05T14:17:25+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 14:17:25 Use 0.000000 s
+
+[ 2018-06-05T14:18:32+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 14:18:32 Use 0.000000 s
+
+[ 2018-06-05T14:18:32+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'eq (1,3)' at line 1
+ [ SQL语句 ] : SELECT * FROM `ts_user` WHERE `id`  eq (1,3)  
+
+[ 2018-06-05T14:23:28+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 14:23:28 Use 0.000000 s
+
+[ 2018-06-05T15:18:21+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 15:18:21 Use 0.000000 s
+
+[ 2018-06-05T15:18:35+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 15:18:35 Use 0.001000 s
+
+[ 2018-06-05T19:20:54+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-06-05 19:20:54 Use 0.001000 s
+
+[ 2018-06-05T19:21:25+08:00 ] ::1 /mythinkphp/index.php/test/test3/add_customer
+ERR: Cron:cron Runat 2018-06-05 19:21:25 Use 0.000000 s
+
+[ 2018-06-05T19:22:35+08:00 ] ::1 /mythinkphp/index.php/test/test3/add_customer
+ERR: Cron:cron Runat 2018-06-05 19:22:35 Use 0.001001 s
+
+[ 2018-06-05T19:35:38+08:00 ] ::1 /mythinkphp/index.php/test/test3/add_customer
+ERR: Cron:cron Runat 2018-06-05 19:35:38 Use 0.000000 s
+
+[ 2018-06-05T19:47:43+08:00 ] ::1 /mythinkphp/index.php/test/test3/check_mall_user_is_exist
+ERR: Cron:cron Runat 2018-06-05 19:47:43 Use 0.000000 s
+
+[ 2018-06-05T19:47:43+08:00 ] ::1 /mythinkphp/index.php/test/test3/check_mall_user_is_exist
+ERR: 参数错误或者未定义:customer_id
+
+[ 2018-06-05T19:48:06+08:00 ] ::1 /mythinkphp/index.php/test/test3/check_mall_user_is_exist
+ERR: Cron:cron Runat 2018-06-05 19:48:06 Use 0.000000 s
+
+[ 2018-06-05T19:48:07+08:00 ] ::1 /mythinkphp/index.php/test/test3/check_mall_user_is_exist
+ERR: 1062:Duplicate entry '5' for key 'user_id'
+ [ SQL语句 ] : INSERT INTO `mall_member_level_and_point_tbl` (`user_id`,`update_time`,`level`,`plus_point_total`,`minus_point_total`,`bill_finish_num`) VALUES ('5','1528199287','1','0','0','0')
+
+[ 2018-06-05T19:51:51+08:00 ] ::1 /mythinkphp/index.php/test/test3/check_mall_user_is_exist
+ERR: Cron:cron Runat 2018-06-05 19:51:51 Use 0.000000 s
+
+[ 2018-06-05T19:52:24+08:00 ] ::1 /mythinkphp/index.php/test/test3/check_mall_user_is_exist
+ERR: Cron:cron Runat 2018-06-05 19:52:24 Use 0.000000 s
+
+[ 2018-06-05T19:56:39+08:00 ] ::1 /mythinkphp/index.php/test/test3/check_mall_user_is_exist
+ERR: Cron:cron Runat 2018-06-05 19:56:39 Use 0.000000 s
+
+[ 2018-06-05T19:59:07+08:00 ] ::1 /mythinkphp/index.php/test/test3/check_mall_user_is_exist
+ERR: Cron:cron Runat 2018-06-05 19:59:07 Use 0.001000 s
+
+[ 2018-06-05T20:03:20+08:00 ] ::1 /mythinkphp/index.php/test/test3/add_customer
+ERR: Cron:cron Runat 2018-06-05 20:03:20 Use 0.000000 s
+

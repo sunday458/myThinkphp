@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Send email with CC and BCC</title>
+</head>
+<body>
+<form action="send_email.php" method=post name=form1>
+<table>
+  <tbody>
+  <tr>
+   <td>
+    <div align=right><b>To</b></div></td>
+   <td>
+    <p>Name <input name=mailtoname size=35><br />E-mail
+        <input name=mailtomail size=35></p></td></tr>
+  <tr>
+   <td>
+    <div align=right><b>CC</b></div></td>
+   <td><input name=mailcc size=35> </td></tr>
+  <tr>
+   <td>
+    <div align=right><b>BCC</b></div></td>
+   <td><input name=mailbcc size=35> </td></tr>
+  <tr>
+   <td>
+    <div align=right><b>Priority</b></div></td>
+   <td><select name=mailpriority>
+      <option value=1>Highest</option>
+      <option value=2>High</option>
+      <option selected value=3>Normal</option>
+      <option value=4>Low</option>
+      <option value=5>Lowest</option>
+     </select>
+   </td></tr>
+  <tr>
+   <td><div align=right><b>Subject</b></div></td>
+   <td><input name=mailsubject size=35></td></tr>
+  <tr>
+   <td>
+    <div align=right><b>Message</b> </div></td>
+   <td><textarea cols=50 name=mailbody rows=7></textarea></td></tr>
+  <tr>
+   <td colSpan=2>
+    <div align=center>
+ <input name=Submit type=submit value=Submit></div>
+  </td>
+  </tr>
+  </tbody>
+</table>
+</form>
+</body>
+</html>

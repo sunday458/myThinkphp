@@ -1,0 +1,48 @@
+[ 2017-12-20T08:36:11+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: 2006:MySQL server has gone away
+ [ SQL语句 ] : UPDATE `customer` SET `level`='2' WHERE ( id=169522 )
+
+[ 2017-12-20T10:48:27+08:00 ] ::1 /mythinkphp/index.php/test2/matters/tets_where
+ERR: Cron:cron Runat 2017-12-20 10:48:27 Use 0.002000 s
+
+[ 2017-12-20T10:56:06+08:00 ] ::1 /mythinkphp/index.php/test2/matters/tets_where
+ERR: Cron:cron Runat 2017-12-20 10:56:06 Use 0.001000 s
+
+[ 2017-12-20T10:56:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/tets_where
+ERR: Cron:cron Runat 2017-12-20 10:56:35 Use 0.000000 s
+
+[ 2017-12-20T10:56:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/tets_where
+ERR: 1052:Column 'id' in order clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `yj_member_level_and_point_tbl` LEFT JOIN customer b ON yj_member_level_and_point_tbl.id = b.id  ORDER BY id desc LIMIT 100  
+
+[ 2017-12-20T10:57:03+08:00 ] ::1 /mythinkphp/index.php/test2/matters/tets_where
+ERR: Cron:cron Runat 2017-12-20 10:57:03 Use 0.000000 s
+
+[ 2017-12-20T10:57:03+08:00 ] ::1 /mythinkphp/index.php/test2/matters/tets_where
+ERR: 1052:Column 'id' in order clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `yj_member_level_and_point_tbl` LEFT JOIN customer b ON yj_member_level_and_point_tbl.customer_id = b.id  ORDER BY id desc LIMIT 100  
+
+[ 2017-12-20T10:57:24+08:00 ] ::1 /mythinkphp/index.php/test2/matters/tets_where
+ERR: Cron:cron Runat 2017-12-20 10:57:24 Use 0.000000 s
+
+[ 2017-12-20T10:58:10+08:00 ] ::1 /mythinkphp/index.php/test2/matters/tets_where
+ERR: Cron:cron Runat 2017-12-20 10:58:10 Use 0.000000 s
+
+[ 2017-12-20T11:00:39+08:00 ] ::1 /mythinkphp/index.php/test2/matters/tets_where
+ERR: Cron:cron Runat 2017-12-20 11:00:39 Use 0.000000 s
+
+[ 2017-12-20T18:01:09+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-20 18:01:09 Use 0.000000 s
+
+[ 2017-12-20T18:02:44+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-20 18:02:44 Use 0.000000 s
+
+[ 2017-12-20T18:03:31+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-20 18:03:31 Use 0.000000 s
+
+[ 2017-12-20T18:06:41+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-20 18:06:41 Use 0.000000 s
+
+[ 2017-12-20T18:07:36+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-20 18:07:36 Use 0.001000 s
+

@@ -1,0 +1,6 @@
+[ 2018-03-31T09:53:48+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-31 09:53:48 Use 0.001001 s
+
+[ 2018-03-31T09:54:10+08:00 ] ::1 /mythinkphp/index.php/test2/member/test5
+ERR: Cron:cron Runat 2018-03-31 09:54:10 Use 0.000000 s
+

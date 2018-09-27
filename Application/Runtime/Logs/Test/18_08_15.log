@@ -1,0 +1,15 @@
+[ 2018-08-15T08:52:27+08:00 ] ::1 /mythinkphp/index.php/test/test3/jisuan
+ERR: Cron:cron Runat 2018-08-15 08:52:27 Use 0.001000 s
+
+[ 2018-08-15T08:52:43+08:00 ] ::1 /mythinkphp/index.php/test/test3/jisuan
+ERR: Cron:cron Runat 2018-08-15 08:52:43 Use 0.000000 s
+
+[ 2018-08-15T08:53:04+08:00 ] ::1 /mythinkphp/index.php/test/test3/jisuan
+ERR: Cron:cron Runat 2018-08-15 08:53:04 Use 0.000000 s
+
+[ 2018-08-15T08:53:21+08:00 ] ::1 /mythinkphp/index.php/test/test3/jisuan
+ERR: Cron:cron Runat 2018-08-15 08:53:21 Use 0.001000 s
+
+[ 2018-08-15T08:55:10+08:00 ] ::1 /mythinkphp/index.php/test/test3/jisuan
+ERR: Cron:cron Runat 2018-08-15 08:55:10 Use 0.000000 s
+

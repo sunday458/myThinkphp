@@ -1,0 +1,56 @@
+[ 2018-01-08T15:17:26+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 15:17:26 Use 0.004000 s
+
+[ 2018-01-08T15:18:02+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 15:18:02 Use 0.000000 s
+
+[ 2018-01-08T15:18:16+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 15:18:16 Use 0.001000 s
+
+[ 2018-01-08T15:20:46+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 15:20:46 Use 0.001000 s
+
+[ 2018-01-08T15:23:05+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 15:23:05 Use 0.000000 s
+
+[ 2018-01-08T15:23:16+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 15:23:16 Use 0.000000 s
+
+[ 2018-01-08T16:08:30+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 16:08:30 Use 0.000000 s
+
+[ 2018-01-08T16:08:44+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 16:08:44 Use 0.001000 s
+
+[ 2018-01-08T16:08:59+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 16:08:59 Use 0.000000 s
+
+[ 2018-01-08T16:14:59+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 16:14:59 Use 0.001000 s
+
+[ 2018-01-08T16:14:59+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IN )' at line 1
+ [ SQL语句 ] : SELECT * FROM ( SELECT `id`,`dep_id` FROM `yj_position_tbl` ORDER BY add_time  ) a WHERE (  IN ) 
+
+[ 2018-01-08T16:15:11+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 16:15:11 Use 0.001000 s
+
+[ 2018-01-08T16:15:11+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IN ) AND (  1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM ( SELECT `id`,`dep_id` FROM `yj_position_tbl` ORDER BY add_time  ) a WHERE (  IN ) AND (  1 ) 
+
+[ 2018-01-08T16:15:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 16:15:35 Use 0.000000 s
+
+[ 2018-01-08T16:15:54+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 16:15:54 Use 0.000000 s
+
+[ 2018-01-08T16:16:19+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 16:16:19 Use 0.000000 s
+
+[ 2018-01-08T16:16:37+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 16:16:37 Use 0.000000 s
+
+[ 2018-01-08T16:17:08+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-08 16:17:08 Use 0.001000 s
+

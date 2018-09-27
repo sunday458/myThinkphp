@@ -1,0 +1,6 @@
+[ 2018-03-01T18:07:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_user
+ERR: Cron:cron Runat 2018-03-01 18:07:35 Use 0.000000 s
+
+[ 2018-03-01T18:07:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_user
+ERR: 非法操作:test_user
+

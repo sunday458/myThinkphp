@@ -1,0 +1,33 @@
+[ 2018-07-17T15:54:34+08:00 ] ::1 /mythinkphp/index.php/test/test3/xing_zuo
+ERR: Cron:cron Runat 2018-07-17 15:54:34 Use 0.001000 s
+
+[ 2018-07-17T15:54:54+08:00 ] ::1 /mythinkphp/index.php/test/test3/xing_zuo
+ERR: Cron:cron Runat 2018-07-17 15:54:54 Use 0.001000 s
+
+[ 2018-07-17T15:55:04+08:00 ] ::1 /mythinkphp/index.php/test/test3/xing_zuo
+ERR: Cron:cron Runat 2018-07-17 15:55:04 Use 0.000000 s
+
+[ 2018-07-17T15:58:14+08:00 ] ::1 /mythinkphp/index.php/test/test3/xing_zuo
+ERR: Cron:cron Runat 2018-07-17 15:58:14 Use 0.000000 s
+
+[ 2018-07-17T15:58:47+08:00 ] ::1 /mythinkphp/index.php/test/test3/xing_zuo
+ERR: Cron:cron Runat 2018-07-17 15:58:47 Use 0.000000 s
+
+[ 2018-07-17T15:59:08+08:00 ] ::1 /mythinkphp/index.php/test/test3/xing_zuo
+ERR: Cron:cron Runat 2018-07-17 15:59:08 Use 0.001000 s
+
+[ 2018-07-17T16:02:29+08:00 ] ::1 /mythinkphp/index.php/test/test3/xing_zuo2
+ERR: Cron:cron Runat 2018-07-17 16:02:29 Use 0.000000 s
+
+[ 2018-07-17T16:24:53+08:00 ] ::1 /mythinkphp/index.php/test/test3/xing_zuo2
+ERR: Cron:cron Runat 2018-07-17 16:24:53 Use 0.001000 s
+
+[ 2018-07-17T16:34:01+08:00 ] ::1 /mythinkphp/index.php/test/test3/xing_zuo2
+ERR: Cron:cron Runat 2018-07-17 16:34:01 Use 0.000000 s
+
+[ 2018-07-17T16:34:16+08:00 ] ::1 /mythinkphp/index.php/test/test3/xing_zuo2
+ERR: Cron:cron Runat 2018-07-17 16:34:16 Use 0.000000 s
+
+[ 2018-07-17T16:34:27+08:00 ] ::1 /mythinkphp/index.php/test/test3/xing_zuo2
+ERR: Cron:cron Runat 2018-07-17 16:34:27 Use 0.000000 s
+

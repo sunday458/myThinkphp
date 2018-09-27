@@ -1,0 +1,92 @@
+[ 2017-12-18T11:03:04+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-18 11:03:04 Use 0.002000 s
+
+[ 2017-12-18T11:04:21+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-18 11:04:21 Use 0.000000 s
+
+[ 2017-12-18T11:04:43+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-18 11:04:43 Use 0.000000 s
+
+[ 2017-12-18T11:39:30+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-18 11:39:30 Use 0.000000 s
+
+[ 2017-12-18T11:46:10+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-18 11:46:10 Use 0.000000 s
+
+[ 2017-12-18T11:46:58+08:00 ] ::1 /mythinkphp/index.php/test2/matters/disable_user_login
+ERR: Cron:cron Runat 2017-12-18 11:46:58 Use 0.000000 s
+
+[ 2017-12-18T11:48:17+08:00 ] ::1 /mythinkphp/index.php/test2/matters/disable_user_login
+ERR: Cron:cron Runat 2017-12-18 11:48:17 Use 0.000000 s
+
+[ 2017-12-18T13:46:53+08:00 ] ::1 /mythinkphp/index.php/test2/matters/disable_user_login
+ERR: Cron:cron Runat 2017-12-18 13:46:53 Use 0.000000 s
+
+[ 2017-12-18T13:47:06+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_login_log
+ERR: Cron:cron Runat 2017-12-18 13:47:06 Use 0.001000 s
+
+[ 2017-12-18T13:47:24+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_login_log
+ERR: Cron:cron Runat 2017-12-18 13:47:24 Use 0.000000 s
+
+[ 2017-12-18T13:48:27+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_login_log
+ERR: Cron:cron Runat 2017-12-18 13:48:27 Use 0.000000 s
+
+[ 2017-12-18T13:48:44+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_login_log
+ERR: Cron:cron Runat 2017-12-18 13:48:44 Use 0.000000 s
+
+[ 2017-12-18T13:49:06+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_login_log
+ERR: Cron:cron Runat 2017-12-18 13:49:06 Use 0.000000 s
+
+[ 2017-12-18T13:49:23+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_login_log
+ERR: Cron:cron Runat 2017-12-18 13:49:23 Use 0.000000 s
+
+[ 2017-12-18T13:50:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_login_log
+ERR: Cron:cron Runat 2017-12-18 13:50:35 Use 0.000000 s
+
+[ 2017-12-18T13:51:46+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_login_log
+ERR: Cron:cron Runat 2017-12-18 13:51:46 Use 0.000000 s
+
+[ 2017-12-18T13:52:21+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_login_log
+ERR: Cron:cron Runat 2017-12-18 13:52:21 Use 0.001000 s
+
+[ 2017-12-18T13:52:38+08:00 ] ::1 /mythinkphp/index.php/test2/matters/disable_user_login
+ERR: Cron:cron Runat 2017-12-18 13:52:38 Use 0.000000 s
+
+[ 2017-12-18T13:52:54+08:00 ] ::1 /mythinkphp/index.php/test2/matters/disable_user_login
+ERR: Cron:cron Runat 2017-12-18 13:52:54 Use 0.000000 s
+
+[ 2017-12-18T13:58:02+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-18 13:58:02 Use 0.000000 s
+
+[ 2017-12-18T14:48:08+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_login_log
+ERR: Cron:cron Runat 2017-12-18 14:48:08 Use 0.000000 s
+
+[ 2017-12-18T14:48:18+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_login_log
+ERR: Cron:cron Runat 2017-12-18 14:48:18 Use 0.000000 s
+
+[ 2017-12-18T14:48:34+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_login_log
+ERR: Cron:cron Runat 2017-12-18 14:48:34 Use 0.001001 s
+
+[ 2017-12-18T17:14:51+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-18 17:14:51 Use 0.000000 s
+
+[ 2017-12-18T17:14:51+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: 1054:Unknown column 'parents' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`com_id`,`name`,`parents`,`parents_list` FROM `department` WHERE `status` = 1 
+
+[ 2017-12-18T17:20:17+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_roles_list
+ERR: Cron:cron Runat 2017-12-18 17:20:17 Use 0.000000 s
+
+[ 2017-12-18T17:20:17+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_roles_list
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`name` FROM `crm_roles` 
+
+[ 2017-12-18T17:20:30+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_roles_list
+ERR: Cron:cron Runat 2017-12-18 17:20:30 Use 0.000000 s
+
+[ 2017-12-18T17:20:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_roles_list
+ERR: Cron:cron Runat 2017-12-18 17:20:40 Use 0.000000 s
+
+[ 2017-12-18T17:24:07+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_roles_list
+ERR: Cron:cron Runat 2017-12-18 17:24:07 Use 0.000000 s
+

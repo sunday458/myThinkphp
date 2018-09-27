@@ -1,0 +1,42 @@
+[ 2018-04-28T09:26:30+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 09:26:30 Use 0.000000 s
+
+[ 2018-04-28T09:30:03+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 09:30:03 Use 0.000000 s
+
+[ 2018-04-28T09:30:23+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 09:30:23 Use 0.000000 s
+
+[ 2018-04-28T09:30:47+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 09:30:47 Use 0.000000 s
+
+[ 2018-04-28T09:34:14+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 09:34:14 Use 0.001000 s
+
+[ 2018-04-28T09:34:44+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 09:34:44 Use 0.000000 s
+
+[ 2018-04-28T09:34:55+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 09:34:55 Use 0.001000 s
+
+[ 2018-04-28T09:35:49+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 09:35:49 Use 0.001000 s
+
+[ 2018-04-28T09:36:17+08:00 ] 127.0.0.1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 09:36:17 Use 0.000000 s
+
+[ 2018-04-28T09:38:08+08:00 ] 127.0.0.1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 09:38:08 Use 0.000000 s
+
+[ 2018-04-28T10:24:14+08:00 ] 127.0.0.1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 10:24:14 Use 0.000000 s
+
+[ 2018-04-28T10:24:43+08:00 ] 127.0.0.1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 10:24:43 Use 0.001000 s
+
+[ 2018-04-28T11:12:06+08:00 ] 127.0.0.1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 11:12:06 Use 0.000000 s
+
+[ 2018-04-28T11:12:27+08:00 ] 127.0.0.1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-28 11:12:27 Use 0.000000 s
+

@@ -1,0 +1,21 @@
+[ 2018-04-16T16:35:07+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_data
+ERR: Cron:cron Runat 2018-04-16 16:35:07 Use 0.006001 s
+
+[ 2018-04-16T16:36:11+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_data
+ERR: Cron:cron Runat 2018-04-16 16:36:11 Use 0.000000 s
+
+[ 2018-04-16T16:36:11+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_data
+ERR: 无法加载控制器:Test3
+
+[ 2018-04-16T16:36:26+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_data
+ERR: Cron:cron Runat 2018-04-16 16:36:26 Use 0.000000 s
+
+[ 2018-04-16T16:37:24+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_data
+ERR: Cron:cron Runat 2018-04-16 16:37:24 Use 0.000000 s
+
+[ 2018-04-16T16:46:27+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_data
+ERR: Cron:cron Runat 2018-04-16 16:46:27 Use 0.001000 s
+
+[ 2018-04-16T17:26:46+08:00 ] ::1 /mythinkphp/index.php/test/test3/test
+ERR: Cron:cron Runat 2018-04-16 17:26:46 Use 0.000000 s
+

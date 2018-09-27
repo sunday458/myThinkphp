@@ -1,0 +1,63 @@
+[ 2018-02-11T15:29:33+08:00 ] ::1 /mythinkphp/index.php/test2/chance/test
+ERR: Cron:cron Runat 2018-02-11 15:29:33 Use 0.000000 s
+
+[ 2018-02-11T15:29:33+08:00 ] ::1 /mythinkphp/index.php/test2/chance/test
+ERR: 无法加载控制器:Chance
+
+[ 2018-02-11T15:29:57+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:29:57 Use 0.000000 s
+
+[ 2018-02-11T15:30:07+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:30:07 Use 0.001000 s
+
+[ 2018-02-11T15:30:17+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:30:17 Use 0.000000 s
+
+[ 2018-02-11T15:30:30+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:30:30 Use 0.000000 s
+
+[ 2018-02-11T15:30:44+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:30:44 Use 0.000000 s
+
+[ 2018-02-11T15:35:04+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:35:04 Use 0.000000 s
+
+[ 2018-02-11T15:41:09+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:41:09 Use 0.000000 s
+
+[ 2018-02-11T15:41:09+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: 1146:Table 'test.product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `product`
+
+[ 2018-02-11T15:42:27+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:42:27 Use 0.000000 s
+
+[ 2018-02-11T15:42:27+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: 1364:Field 'end_time' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `mall_exchange_code_tbl` (`exchange_opp_id`,`code`,`goods_id`,`user_id`,`type_id`,`add_time`) VALUES ('7','piQBuODr','1','3','2','1518334947')
+
+[ 2018-02-11T15:46:26+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:46:26 Use 0.000000 s
+
+[ 2018-02-11T15:47:02+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:47:02 Use 0.000000 s
+
+[ 2018-02-11T15:47:02+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: 1364:Field 'end_time' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `mall_exchange_code_tbl` (`exchange_opp_id`,`code`,`goods_id`,`user_id`,`type_id`,`add_time`) VALUES ('7','KRh1ogJY','1','3','2','1518335222')
+
+[ 2018-02-11T15:48:34+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:48:34 Use 0.001000 s
+
+[ 2018-02-11T15:48:52+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:48:52 Use 0.000000 s
+
+[ 2018-02-11T15:50:23+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:50:23 Use 0.001000 s
+
+[ 2018-02-11T15:53:20+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:53:20 Use 0.000000 s
+
+[ 2018-02-11T15:53:49+08:00 ] ::1 /mythinkphp/index.php/test2/channe/test
+ERR: Cron:cron Runat 2018-02-11 15:53:49 Use 0.000000 s
+

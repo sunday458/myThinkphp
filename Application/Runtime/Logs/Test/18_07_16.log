@@ -1,0 +1,54 @@
+[ 2018-07-16T15:24:54+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:24:54 Use 0.001000 s
+
+[ 2018-07-16T15:25:15+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:25:15 Use 0.000000 s
+
+[ 2018-07-16T15:26:49+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:26:49 Use 0.000000 s
+
+[ 2018-07-16T15:27:00+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:27:00 Use 0.000000 s
+
+[ 2018-07-16T15:27:23+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:27:23 Use 0.000000 s
+
+[ 2018-07-16T15:29:29+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:29:29 Use 0.000000 s
+
+[ 2018-07-16T15:29:45+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:29:45 Use 0.000000 s
+
+[ 2018-07-16T15:30:09+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:30:09 Use 0.000000 s
+
+[ 2018-07-16T15:30:23+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:30:23 Use 0.000000 s
+
+[ 2018-07-16T15:30:59+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:30:59 Use 0.000000 s
+
+[ 2018-07-16T15:31:39+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:31:39 Use 0.001000 s
+
+[ 2018-07-16T15:31:59+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:31:59 Use 0.000000 s
+
+[ 2018-07-16T15:33:10+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:33:10 Use 0.000000 s
+
+[ 2018-07-16T15:33:29+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:33:29 Use 0.001000 s
+
+[ 2018-07-16T15:34:24+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:34:24 Use 0.000000 s
+
+[ 2018-07-16T15:34:34+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:34:34 Use 0.001000 s
+
+[ 2018-07-16T15:35:01+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:35:01 Use 0.000000 s
+
+[ 2018-07-16T15:40:33+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-07-16 15:40:33 Use 0.001000 s
+

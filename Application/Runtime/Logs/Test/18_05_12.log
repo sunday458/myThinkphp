@@ -1,0 +1,72 @@
+[ 2018-05-12T09:47:57+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-05-12 09:47:57 Use 0.002001 s
+
+[ 2018-05-12T09:49:14+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-05-12 09:49:14 Use 0.001000 s
+
+[ 2018-05-12T09:49:34+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-05-12 09:49:34 Use 0.000000 s
+
+[ 2018-05-12T10:49:44+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-05-12 10:49:44 Use 0.000000 s
+
+[ 2018-05-12T10:49:44+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'u.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.* FROM wp_apps_follow follow LEFT JOIN wp_user u ON u.id = follow.uid  WHERE follow.openid = 'ogdQy018MP-VVsW2BfZ1e0_ullAs' LIMIT 1  
+
+[ 2018-05-12T10:50:31+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-05-12 10:50:31 Use 0.001000 s
+
+[ 2018-05-12T10:50:31+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'u.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.* FROM wp_apps_follow follow LEFT JOIN wp_user u ON u.id = follow.uid  WHERE follow.openid = 'ogdQy018MP-VVsW2BfZ1e0_ullAs' LIMIT 1  
+
+[ 2018-05-12T10:50:32+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'u.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.* FROM wp_apps_follow follow LEFT JOIN wp_user u ON u.id = follow.uid  WHERE follow.openid = 'ogdQy018MP-VVsW2BfZ1e0_ullAs' LIMIT 1  
+
+[ 2018-05-12T10:50:33+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'u.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.* FROM wp_apps_follow follow LEFT JOIN wp_user u ON u.id = follow.uid  WHERE follow.openid = 'ogdQy018MP-VVsW2BfZ1e0_ullAs' LIMIT 1  
+
+[ 2018-05-12T10:50:33+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'u.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.* FROM wp_apps_follow follow LEFT JOIN wp_user u ON u.id = follow.uid  WHERE follow.openid = 'ogdQy018MP-VVsW2BfZ1e0_ullAs' LIMIT 1  
+
+[ 2018-05-12T10:50:34+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'u.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.* FROM wp_apps_follow follow LEFT JOIN wp_user u ON u.id = follow.uid  WHERE follow.openid = 'ogdQy018MP-VVsW2BfZ1e0_ullAs' LIMIT 1  
+
+[ 2018-05-12T10:50:34+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'u.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.* FROM wp_apps_follow follow LEFT JOIN wp_user u ON u.id = follow.uid  WHERE follow.openid = 'ogdQy018MP-VVsW2BfZ1e0_ullAs' LIMIT 1  
+
+[ 2018-05-12T10:50:34+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'u.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.* FROM wp_apps_follow follow LEFT JOIN wp_user u ON u.id = follow.uid  WHERE follow.openid = 'ogdQy018MP-VVsW2BfZ1e0_ullAs' LIMIT 1  
+
+[ 2018-05-12T10:50:34+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1054:Unknown column 'u.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.* FROM wp_apps_follow follow LEFT JOIN wp_user u ON u.id = follow.uid  WHERE follow.openid = 'ogdQy018MP-VVsW2BfZ1e0_ullAs' LIMIT 1  
+
+[ 2018-05-12T10:50:43+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-05-12 10:50:43 Use 0.000000 s
+
+[ 2018-05-12T11:44:50+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-05-12 11:44:50 Use 0.000000 s
+
+[ 2018-05-12T11:45:02+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-05-12 11:45:02 Use 0.000000 s
+
+[ 2018-05-12T11:46:10+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-05-12 11:46:10 Use 0.001000 s
+
+[ 2018-05-12T11:56:37+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-05-12 11:56:37 Use 0.000000 s
+
+[ 2018-05-12T16:07:15+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-05-12 16:07:15 Use 0.001000 s
+
+[ 2018-05-12T16:07:51+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-05-12 16:07:51 Use 0.000000 s
+

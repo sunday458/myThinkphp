@@ -1,0 +1,3 @@
+[ 2018-05-15T14:17:06+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-05-15 14:17:06 Use 0.037002 s
+

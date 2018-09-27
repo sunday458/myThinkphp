@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<volist name="arr" id="vo">
+	{$vo.id} <br/>
+	{$vo['id']} <br/>
+	{$vo["id"]} <br/>
+</volist>
+{$data.create_date} <br/>
+{$data['create_date']} <br/>
+{$data["create_date"]}<br/>
+
+{$create_date}<br/>
+
+{$data.create_date|date='y-m-d',###}<br/>
+
+{:date('Y-m-d',$create_date)}<br/>
+<form action="{:U('User/check_data')}" method="post"> 
+<!-- <form action="{:U('User/login')}" method="post"> -->
+    <input type="text" name="name" value="" placeholder="姓名" />
+    <input type="text" name="age" value="" placeholder="年龄" />
+    <input type="text" name="phone" value="" placeholder="联系方式" />
+    <input type="submit" value="enter"/>
+</form>
+</body>
+</html>

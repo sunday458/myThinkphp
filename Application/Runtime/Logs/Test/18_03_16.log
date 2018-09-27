@@ -1,0 +1,6 @@
+[ 2018-03-16T10:41:47+08:00 ] ::1 /mythinkphp/index.php/test/member/test2
+ERR: Cron:cron Runat 2018-03-16 10:41:47 Use 0.000000 s
+
+[ 2018-03-16T10:41:47+08:00 ] ::1 /mythinkphp/index.php/test/member/test2
+ERR: 无法加载控制器:Member
+

@@ -1,0 +1,37 @@
+[ 2018-05-02T15:30:09+08:00 ] ::1 /mythinkphp/index.php/test/test3/apps_follow_subscribe_list
+ERR: Cron:cron Runat 2018-05-02 15:30:09 Use 0.007001 s
+
+[ 2018-05-02T15:30:09+08:00 ] ::1 /mythinkphp/index.php/test/test3/apps_follow_subscribe_list
+ERR: 1146:Table 'test.ts_kf_statistics_tbl' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ts_kf_statistics_tbl`
+
+[ 2018-05-02T15:30:38+08:00 ] ::1 /mythinkphp/index.php/test/test3/apps_follow_subscribe_list
+ERR: Cron:cron Runat 2018-05-02 15:30:38 Use 0.001000 s
+
+[ 2018-05-02T15:30:38+08:00 ] ::1 /mythinkphp/index.php/test/test3/apps_follow_subscribe_list
+ERR: 1054:Unknown column 's.type_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(s.id) AS tp_count FROM wp_kf_statistics_tbl s WHERE s.type_id = 1 AND s.statistics_time <= '20180502' LIMIT 1  
+
+[ 2018-05-02T15:33:52+08:00 ] ::1 /mythinkphp/index.php/test/test3/apps_follow_subscribe_list
+ERR: Cron:cron Runat 2018-05-02 15:33:52 Use 0.000000 s
+
+[ 2018-05-02T15:33:52+08:00 ] ::1 /mythinkphp/index.php/test/test3/apps_follow_subscribe_list
+ERR: 1054:Unknown column 'type_id' in 'where clause'
+ [ SQL语句 ] : SELECT s.id,s.kf_id,s.statistics_time,s.session_total,s.chat_total,s.fans_total,s.fans_total,w.name,w.weixin_id,w.emp_id,w.group_id,w.weixin_qcode FROM wp_kf_statistics_tbl s  LEFT JOIN wp_weixin_kf w on w.id = s.kf_id   WHERE `type_id` = 1 AND `statistics_time` <= '20180502' ORDER BY  s.statistics_time desc  LIMIT 0,20  
+
+[ 2018-05-02T15:34:31+08:00 ] ::1 /mythinkphp/index.php/test/test3/apps_follow_subscribe_list
+ERR: Cron:cron Runat 2018-05-02 15:34:31 Use 0.000000 s
+
+[ 2018-05-02T15:34:31+08:00 ] ::1 /mythinkphp/index.php/test/test3/apps_follow_subscribe_list
+ERR: 1054:Unknown column 's.type_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(s.id) AS tp_count FROM wp_kf_statistics_tbl s WHERE s.type_id = 1 AND `statistics_time` <= '20180502' LIMIT 1  
+
+[ 2018-05-02T15:47:12+08:00 ] ::1 /mythinkphp/index.php/test/test3/apps_follow_subscribe_list
+ERR: Cron:cron Runat 2018-05-02 15:47:12 Use 0.001000 s
+
+[ 2018-05-02T15:47:22+08:00 ] ::1 /mythinkphp/index.php/test/test3/apps_follow_subscribe_list
+ERR: Cron:cron Runat 2018-05-02 15:47:22 Use 0.000000 s
+
+[ 2018-05-02T15:50:08+08:00 ] ::1 /mythinkphp/index.php/test/test3/apps_follow_subscribe_list
+ERR: Cron:cron Runat 2018-05-02 15:50:08 Use 0.000000 s
+

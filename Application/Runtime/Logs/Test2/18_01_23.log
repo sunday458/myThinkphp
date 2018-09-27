@@ -1,0 +1,35 @@
+[ 2018-01-23T15:05:53+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test2
+ERR: Cron:cron Runat 2018-01-23 15:05:53 Use 0.001000 s
+
+[ 2018-01-23T15:05:53+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test2
+ERR: 非法操作:test2
+
+[ 2018-01-23T15:06:06+08:00 ] ::1 /mythinkphp/index.php/test2/metter/test2
+ERR: Cron:cron Runat 2018-01-23 15:06:06 Use 0.000000 s
+
+[ 2018-01-23T15:06:06+08:00 ] ::1 /mythinkphp/index.php/test2/metter/test2
+ERR: 无法加载控制器:Metter
+
+[ 2018-01-23T15:06:17+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-23 15:06:17 Use 0.000000 s
+
+[ 2018-01-23T15:06:17+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: 1146:Table 'test.db_config4customer_tbl' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `db_config4customer_tbl`
+
+[ 2018-01-23T15:06:42+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-23 15:06:42 Use 0.000000 s
+
+[ 2018-01-23T15:06:55+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-23 15:06:55 Use 0.001000 s
+
+[ 2018-01-23T15:19:06+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-23 15:19:06 Use 0.000000 s
+
+[ 2018-01-23T15:19:06+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: 1054:Unknown column 'first_phone' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`name`,`first_phone`,`is_associated` FROM `mall_customer_tbl` LIMIT 1  
+
+[ 2018-01-23T15:19:23+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-23 15:19:23 Use 0.001000 s
+

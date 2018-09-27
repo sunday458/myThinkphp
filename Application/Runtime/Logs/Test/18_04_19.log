@@ -1,0 +1,68 @@
+[ 2018-04-19T13:41:10+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 13:41:10 Use 0.000000 s
+
+[ 2018-04-19T13:41:10+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'reduction) AS tp_sum FROM `yj_order` WHERE `id` = 100' at line 1
+ [ SQL语句 ] : SELECT SUM(total_price,reduction) AS tp_sum FROM `yj_order` WHERE `id` = 100 
+
+[ 2018-04-19T13:41:43+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 13:41:43 Use 0.001000 s
+
+[ 2018-04-19T13:41:43+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'reduction) AS tp_sum FROM `yj_order` WHERE `c_id` = 14' at line 1
+ [ SQL语句 ] : SELECT SUM(total_price,reduction) AS tp_sum FROM `yj_order` WHERE `c_id` = 14 
+
+[ 2018-04-19T13:42:33+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 13:42:33 Use 0.000000 s
+
+[ 2018-04-19T13:43:06+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 13:43:06 Use 0.000000 s
+
+[ 2018-04-19T13:44:26+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 13:44:26 Use 0.000000 s
+
+[ 2018-04-19T13:45:22+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 13:45:22 Use 0.000000 s
+
+[ 2018-04-19T13:47:13+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 13:47:13 Use 0.001000 s
+
+[ 2018-04-19T13:51:39+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 13:51:39 Use 0.001000 s
+
+[ 2018-04-19T13:51:51+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 13:51:51 Use 0.001000 s
+
+[ 2018-04-19T13:52:32+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 13:52:32 Use 0.001000 s
+
+[ 2018-04-19T13:52:44+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 13:52:44 Use 0.000000 s
+
+[ 2018-04-19T13:53:05+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 13:53:05 Use 0.000000 s
+
+[ 2018-04-19T14:21:36+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 14:21:36 Use 0.000000 s
+
+[ 2018-04-19T14:22:29+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 14:22:29 Use 0.000000 s
+
+[ 2018-04-19T14:23:01+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 14:23:01 Use 0.000000 s
+
+[ 2018-04-19T14:23:36+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 14:23:36 Use 0.000000 s
+
+[ 2018-04-19T14:25:02+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 14:25:02 Use 0.001000 s
+
+[ 2018-04-19T14:25:41+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 14:25:41 Use 0.000000 s
+
+[ 2018-04-19T14:26:27+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 14:26:27 Use 0.000000 s
+
+[ 2018-04-19T17:37:20+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_null
+ERR: Cron:cron Runat 2018-04-19 17:37:20 Use 0.000000 s
+

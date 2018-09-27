@@ -1,0 +1,109 @@
+[ 2017-12-11T11:16:18+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:16:18 Use 0.002000 s
+
+[ 2017-12-11T11:17:37+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:17:37 Use 0.000000 s
+
+[ 2017-12-11T11:18:02+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:18:02 Use 0.000000 s
+
+[ 2017-12-11T11:20:28+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:20:28 Use 0.000000 s
+
+[ 2017-12-11T11:20:42+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:20:42 Use 0.000000 s
+
+[ 2017-12-11T11:24:07+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:24:07 Use 0.000000 s
+
+[ 2017-12-11T11:24:49+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:24:49 Use 0.000000 s
+
+[ 2017-12-11T11:25:56+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:25:56 Use 0.000000 s
+
+[ 2017-12-11T11:25:56+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: 1146:Table 'crm_wan_asiaski.order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `order`
+
+[ 2017-12-11T11:26:08+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:26:08 Use 0.001000 s
+
+[ 2017-12-11T11:26:08+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: 1054:Unknown column 'amount' in 'field list'
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `orders` WHERE `c_id` = '1431' AND `status` IN (3) LIMIT 1  
+
+[ 2017-12-11T11:27:06+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:27:06 Use 0.000000 s
+
+[ 2017-12-11T11:32:58+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:32:58 Use 0.000000 s
+
+[ 2017-12-11T11:32:58+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as money_total) AS tp_sum FROM `orders` WHERE `c_id` = '1431' AND `status` IN (3' at line 1
+ [ SQL语句 ] : SELECT SUM(payed_price as money_total) AS tp_sum FROM `orders` WHERE `c_id` = '1431' AND `status` IN (3) LIMIT 1  
+
+[ 2017-12-11T11:36:10+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:36:10 Use 0.000000 s
+
+[ 2017-12-11T11:36:26+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:36:26 Use 0.000000 s
+
+[ 2017-12-11T11:43:00+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:43:00 Use 0.000000 s
+
+[ 2017-12-11T11:43:12+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:43:12 Use 0.001000 s
+
+[ 2017-12-11T11:48:45+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:48:45 Use 0.000000 s
+
+[ 2017-12-11T11:50:34+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:50:34 Use 0.000000 s
+
+[ 2017-12-11T11:54:40+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 11:54:40 Use 0.000000 s
+
+[ 2017-12-11T13:40:51+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 13:40:51 Use 0.000000 s
+
+[ 2017-12-11T13:46:21+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 13:46:21 Use 0.000000 s
+
+[ 2017-12-11T13:46:57+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 13:46:57 Use 0.000000 s
+
+[ 2017-12-11T13:47:32+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 13:47:32 Use 0.000000 s
+
+[ 2017-12-11T13:59:45+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 13:59:45 Use 0.000000 s
+
+[ 2017-12-11T14:02:22+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 14:02:22 Use 0.001000 s
+
+[ 2017-12-11T14:02:43+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 14:02:43 Use 0.000000 s
+
+[ 2017-12-11T14:05:17+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 14:05:17 Use 0.000000 s
+
+[ 2017-12-11T14:05:33+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 14:05:33 Use 0.001000 s
+
+[ 2017-12-11T14:05:54+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 14:05:54 Use 0.000000 s
+
+[ 2017-12-11T14:07:07+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 14:07:07 Use 0.000000 s
+
+[ 2017-12-11T14:07:39+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: 2006:MySQL server has gone away
+ [ SQL语句 ] : INSERT INTO `yj_member_level_and_point_tbl` (`customer_id`,`update_time`,`level`,`plus_point_total`,`minus_point_total`,`bill_finish_num`) VALUES ('8477','1512972458','1','0','0','1')
+
+[ 2017-12-11T14:07:54+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 14:07:54 Use 0.000000 s
+
+[ 2017-12-11T14:17:38+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-11 14:17:38 Use 0.001000 s
+

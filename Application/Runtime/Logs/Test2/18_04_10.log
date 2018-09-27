@@ -1,0 +1,36 @@
+[ 2018-04-10T13:53:07+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/tese_num
+ERR: Cron:cron Runat 2018-04-10 13:53:07 Use 0.001000 s
+
+[ 2018-04-10T13:53:07+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/tese_num
+ERR: 非法操作:tese_num
+
+[ 2018-04-10T13:53:30+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_num
+ERR: Cron:cron Runat 2018-04-10 13:53:30 Use 0.000000 s
+
+[ 2018-04-10T13:53:47+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_num
+ERR: Cron:cron Runat 2018-04-10 13:53:47 Use 0.000000 s
+
+[ 2018-04-10T13:53:59+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_num
+ERR: Cron:cron Runat 2018-04-10 13:53:59 Use 0.001000 s
+
+[ 2018-04-10T13:54:09+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_num
+ERR: Cron:cron Runat 2018-04-10 13:54:09 Use 0.000000 s
+
+[ 2018-04-10T13:54:52+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_num
+ERR: Cron:cron Runat 2018-04-10 13:54:52 Use 0.000000 s
+
+[ 2018-04-10T13:55:11+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_num
+ERR: Cron:cron Runat 2018-04-10 13:55:11 Use 0.000000 s
+
+[ 2018-04-10T13:55:26+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_num
+ERR: Cron:cron Runat 2018-04-10 13:55:26 Use 0.000000 s
+
+[ 2018-04-10T13:57:39+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_num
+ERR: Cron:cron Runat 2018-04-10 13:57:39 Use 0.001000 s
+
+[ 2018-04-10T13:57:56+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_num
+ERR: Cron:cron Runat 2018-04-10 13:57:56 Use 0.000000 s
+
+[ 2018-04-10T13:58:11+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_num
+ERR: Cron:cron Runat 2018-04-10 13:58:11 Use 0.000000 s
+

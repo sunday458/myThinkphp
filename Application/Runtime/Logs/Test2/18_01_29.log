@@ -1,0 +1,173 @@
+[ 2018-01-29T13:47:26+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 13:47:26 Use 0.015000 s
+
+[ 2018-01-29T13:49:02+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 13:49:02 Use 0.000000 s
+
+[ 2018-01-29T14:34:56+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:34:56 Use 0.000000 s
+
+[ 2018-01-29T14:34:56+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: 1048:Column 'init_total_point' cannot be null
+ [ SQL语句 ] : INSERT INTO `yj_member_level_and_point_limit_tbl` (`customer_id`,`add_time`,`init_add_time`,`init_total_point`,`init_continues`,`continues`,`type_id`,`total_point`) VALUES ('67693','1517207696','1517207696',NULL,'1','1','0',NULL)
+
+[ 2018-01-29T14:36:16+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:36:16 Use 0.000000 s
+
+[ 2018-01-29T14:39:50+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:39:50 Use 0.000000 s
+
+[ 2018-01-29T14:41:40+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:41:40 Use 0.001000 s
+
+[ 2018-01-29T14:44:12+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:44:12 Use 0.000000 s
+
+[ 2018-01-29T14:44:45+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:44:45 Use 0.000000 s
+
+[ 2018-01-29T14:45:03+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:45:03 Use 0.000000 s
+
+[ 2018-01-29T14:45:26+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:45:26 Use 0.000000 s
+
+[ 2018-01-29T14:48:10+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:48:10 Use 0.000000 s
+
+[ 2018-01-29T14:48:58+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:48:58 Use 0.000000 s
+
+[ 2018-01-29T14:49:54+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:49:54 Use 0.000000 s
+
+[ 2018-01-29T14:51:25+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:51:25 Use 0.000000 s
+
+[ 2018-01-29T14:51:55+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:51:55 Use 0.000000 s
+
+[ 2018-01-29T14:52:13+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:52:13 Use 0.000000 s
+
+[ 2018-01-29T14:52:41+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:52:41 Use 0.000000 s
+
+[ 2018-01-29T14:53:00+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:53:00 Use 0.000000 s
+
+[ 2018-01-29T14:53:10+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:53:10 Use 0.000000 s
+
+[ 2018-01-29T14:53:51+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:53:51 Use 0.000000 s
+
+[ 2018-01-29T14:54:12+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:54:12 Use 0.000000 s
+
+[ 2018-01-29T14:54:30+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:54:30 Use 0.000000 s
+
+[ 2018-01-29T14:54:55+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:54:55 Use 0.000000 s
+
+[ 2018-01-29T14:55:50+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:55:50 Use 0.000000 s
+
+[ 2018-01-29T14:56:49+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:56:49 Use 0.001000 s
+
+[ 2018-01-29T14:59:19+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 14:59:19 Use 0.001001 s
+
+[ 2018-01-29T15:03:49+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:03:49 Use 0.001000 s
+
+[ 2018-01-29T15:08:25+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:08:25 Use 0.000000 s
+
+[ 2018-01-29T15:09:26+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:09:26 Use 0.000000 s
+
+[ 2018-01-29T15:12:42+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:12:42 Use 0.000000 s
+
+[ 2018-01-29T15:13:49+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:13:49 Use 0.001000 s
+
+[ 2018-01-29T15:16:55+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:16:55 Use 0.000000 s
+
+[ 2018-01-29T15:17:52+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:17:52 Use 0.000000 s
+
+[ 2018-01-29T15:37:38+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:37:38 Use 0.001000 s
+
+[ 2018-01-29T15:37:38+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: 1146:Table 'test.mall_member_level_and_point_log_9_tbl' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mall_member_level_and_point_log_9_tbl`
+
+[ 2018-01-29T15:38:05+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:38:05 Use 0.000000 s
+
+[ 2018-01-29T15:40:19+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:40:19 Use 0.001000 s
+
+[ 2018-01-29T15:40:31+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:40:31 Use 0.001000 s
+
+[ 2018-01-29T15:41:14+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:41:14 Use 0.001000 s
+
+[ 2018-01-29T15:43:08+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:43:08 Use 0.001000 s
+
+[ 2018-01-29T15:43:40+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:43:40 Use 0.000000 s
+
+[ 2018-01-29T15:44:00+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:44:00 Use 0.000000 s
+
+[ 2018-01-29T15:44:51+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:44:51 Use 0.000000 s
+
+[ 2018-01-29T15:49:26+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:49:26 Use 0.000000 s
+
+[ 2018-01-29T15:52:08+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:52:08 Use 0.000000 s
+
+[ 2018-01-29T15:52:27+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:52:27 Use 0.000000 s
+
+[ 2018-01-29T15:52:41+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:52:41 Use 0.000000 s
+
+[ 2018-01-29T15:52:54+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:52:54 Use 0.000000 s
+
+[ 2018-01-29T15:53:13+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 15:53:13 Use 0.000000 s
+
+[ 2018-01-29T16:02:13+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 16:02:13 Use 0.000000 s
+
+[ 2018-01-29T16:02:27+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 16:02:27 Use 0.000000 s
+
+[ 2018-01-29T16:02:42+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 16:02:42 Use 0.000000 s
+
+[ 2018-01-29T16:04:06+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 16:04:06 Use 0.001000 s
+
+[ 2018-01-29T16:08:02+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 16:08:02 Use 0.000000 s
+
+[ 2018-01-29T16:09:14+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 16:09:14 Use 0.000000 s
+
+[ 2018-01-29T16:09:35+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2018-01-29 16:09:35 Use 0.001000 s
+

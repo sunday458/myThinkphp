@@ -1,0 +1,145 @@
+[ 2017-12-12T10:28:18+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 10:28:18 Use 0.000000 s
+
+[ 2017-12-12T10:28:33+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 10:28:33 Use 0.000000 s
+
+[ 2017-12-12T10:29:38+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 10:29:38 Use 0.000000 s
+
+[ 2017-12-12T10:30:57+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 10:30:57 Use 0.001000 s
+
+[ 2017-12-12T10:30:57+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: 1054:Unknown column 'c_id' in 'group statement'
+ [ SQL语句 ] : SELECT `id` FROM `customer` GROUP BY c_id 
+
+[ 2017-12-12T10:31:18+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 10:31:18 Use 0.000000 s
+
+[ 2017-12-12T10:31:18+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: 1054:Unknown column 'c_id' in 'field list'
+ [ SQL语句 ] : SELECT `c_id` FROM `customer` GROUP BY c_id 
+
+[ 2017-12-12T10:31:59+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 10:31:59 Use 0.000000 s
+
+[ 2017-12-12T10:49:55+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 10:49:55 Use 0.001000 s
+
+[ 2017-12-12T10:50:42+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 10:50:42 Use 0.000000 s
+
+[ 2017-12-12T10:51:25+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 10:51:25 Use 0.001000 s
+
+[ 2017-12-12T10:51:48+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 10:51:48 Use 0.000000 s
+
+[ 2017-12-12T10:53:05+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 10:53:05 Use 0.000000 s
+
+[ 2017-12-12T14:04:01+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 14:04:01 Use 0.000000 s
+
+[ 2017-12-12T15:42:01+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 15:42:01 Use 0.001001 s
+
+[ 2017-12-12T15:42:48+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 15:42:48 Use 0.000000 s
+
+[ 2017-12-12T15:43:44+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 15:43:44 Use 0.000000 s
+
+[ 2017-12-12T15:44:29+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 15:44:29 Use 0.000000 s
+
+[ 2017-12-12T15:47:16+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 15:47:16 Use 0.000000 s
+
+[ 2017-12-12T15:50:41+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 15:50:41 Use 0.000000 s
+
+[ 2017-12-12T15:50:55+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 15:50:55 Use 0.000000 s
+
+[ 2017-12-12T15:51:09+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 15:51:09 Use 0.001000 s
+
+[ 2017-12-12T15:51:38+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 15:51:38 Use 0.000000 s
+
+[ 2017-12-12T15:53:24+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 15:53:24 Use 0.000000 s
+
+[ 2017-12-12T15:53:35+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 15:53:35 Use 0.000000 s
+
+[ 2017-12-12T16:13:48+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 16:13:48 Use 0.000000 s
+
+[ 2017-12-12T16:13:55+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/add_activity_goods_list.html
+ERR: 1146:Table 'test.jy_preferential_activities_goods_list' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jy_preferential_activities_goods_list`
+
+[ 2017-12-12T16:15:42+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 16:15:42 Use 0.001000 s
+
+[ 2017-12-12T16:15:50+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/add_activity_goods_list.html
+ERR: 1146:Table 'test.jy_preferential_activities_goods_list' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jy_preferential_activities_goods_list`
+
+[ 2017-12-12T16:16:15+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/add_activity_goods_list.html
+ERR: Cron:cron Runat 2017-12-12 16:16:15 Use 0.000000 s
+
+[ 2017-12-12T16:16:15+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/add_activity_goods_list.html
+ERR: 1146:Table 'test.ts_jy_preferential_activities_goods_list' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ts_jy_preferential_activities_goods_list`
+
+[ 2017-12-12T16:16:29+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/add_activity_goods_list.html
+ERR: Cron:cron Runat 2017-12-12 16:16:29 Use 0.000000 s
+
+[ 2017-12-12T16:19:03+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/add_activity_goods_list.html
+ERR: Cron:cron Runat 2017-12-12 16:19:03 Use 0.000000 s
+
+[ 2017-12-12T16:23:01+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/add_activity_goods_list.html
+ERR: Cron:cron Runat 2017-12-12 16:23:01 Use 0.000000 s
+
+[ 2017-12-12T16:23:01+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/add_activity_goods_list.html
+ERR: 1048:Column 'goods_list_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `yj_preferential_activities_goods_list` (`goods_list_id`,`goods_type_id`,`goods_list`,`add_time`) VALUES (NULL,NULL,'577,578,579','1513066981')
+
+[ 2017-12-12T16:23:36+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 16:23:36 Use 0.000000 s
+
+[ 2017-12-12T16:24:17+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 16:24:17 Use 0.001000 s
+
+[ 2017-12-12T16:24:27+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/add_activity_goods_list.html
+ERR: Cron:cron Runat 2017-12-12 16:24:27 Use 0.001000 s
+
+[ 2017-12-12T16:33:26+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 16:33:26 Use 0.000000 s
+
+[ 2017-12-12T16:33:26+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: 1054:Unknown column 'a.flag' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `product_class` WHERE a.flag = 1 AND a.parent = 0 
+
+[ 2017-12-12T16:33:46+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 16:33:46 Use 0.000000 s
+
+[ 2017-12-12T16:39:53+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 16:39:53 Use 0.000000 s
+
+[ 2017-12-12T16:43:02+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 16:43:02 Use 0.001000 s
+
+[ 2017-12-12T16:44:17+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-12 16:44:17 Use 0.000000 s
+
+[ 2017-12-12T18:21:41+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 18:21:41 Use 0.001000 s
+
+[ 2017-12-12T18:25:04+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-12 18:25:04 Use 0.000000 s
+

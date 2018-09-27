@@ -1,0 +1,471 @@
+[ 2018-03-20T09:13:43+08:00 ] ::1 /mythinkphp/index.php/test2/member/index
+ERR: Cron:cron Runat 2018-03-20 09:13:43 Use 0.002000 s
+
+[ 2018-03-20T09:13:43+08:00 ] ::1 /mythinkphp/index.php/test2/member/index
+ERR: 非法操作:index
+
+[ 2018-03-20T09:13:52+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+ERR: Cron:cron Runat 2018-03-20 09:13:52 Use 0.001000 s
+
+[ 2018-03-20T09:13:52+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:14:27+08:00 ] ::1 /mythinkphp/index.php/test2/test/index
+ERR: Cron:cron Runat 2018-03-20 09:14:27 Use 0.000000 s
+
+[ 2018-03-20T09:14:28+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0010s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:14:42+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+ERR: Cron:cron Runat 2018-03-20 09:14:42 Use 0.000000 s
+
+[ 2018-03-20T09:14:42+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:15:10+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_sumbit.html
+ERR: Cron:cron Runat 2018-03-20 09:15:10 Use 0.000000 s
+
+[ 2018-03-20T09:15:12+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:15:12+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:15:17+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0030s ]
+
+[ 2018-03-20T09:15:28+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_sumbit.html
+ERR: Cron:cron Runat 2018-03-20 09:15:28 Use 0.000000 s
+
+[ 2018-03-20T09:15:30+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:15:47+08:00 ] ::1 /mythinkphp/index.php/test2/test/index
+ERR: Cron:cron Runat 2018-03-20 09:15:47 Use 0.000000 s
+
+[ 2018-03-20T09:15:47+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:15:58+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+ERR: Cron:cron Runat 2018-03-20 09:15:58 Use 0.001000 s
+
+[ 2018-03-20T09:15:58+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:18:46+08:00 ] ::1 /mythinkphp/index.php/test2/test/index
+ERR: Cron:cron Runat 2018-03-20 09:18:46 Use 0.001000 s
+
+[ 2018-03-20T09:18:46+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:18:47+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0010s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:19:03+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_sumbit.html
+ERR: Cron:cron Runat 2018-03-20 09:19:03 Use 0.000000 s
+
+[ 2018-03-20T09:19:05+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:19:35+08:00 ] ::1 /mythinkphp/index.php/test2/test/index
+ERR: Cron:cron Runat 2018-03-20 09:19:35 Use 0.000000 s
+
+[ 2018-03-20T09:19:36+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:21:32+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+ERR: Cron:cron Runat 2018-03-20 09:21:32 Use 0.000000 s
+
+[ 2018-03-20T09:21:32+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:21:50+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_sumbit.html
+ERR: Cron:cron Runat 2018-03-20 09:21:50 Use 0.001000 s
+
+[ 2018-03-20T09:21:58+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0020s ]
+
+[ 2018-03-20T09:22:04+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_sumbit.html
+ERR: Cron:cron Runat 2018-03-20 09:22:04 Use 0.000000 s
+
+[ 2018-03-20T09:22:06+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:24:47+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_sumbit.html
+ERR: Cron:cron Runat 2018-03-20 09:24:47 Use 0.000000 s
+
+[ 2018-03-20T09:24:53+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0010s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:26:24+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_sumbit.html
+ERR: Cron:cron Runat 2018-03-20 09:26:24 Use 0.000000 s
+
+[ 2018-03-20T09:26:27+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0010s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:29:47+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+ERR: Cron:cron Runat 2018-03-20 09:29:47 Use 0.000000 s
+
+[ 2018-03-20T09:29:47+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0010s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:29:49+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:30:11+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_sumbit.html
+ERR: Cron:cron Runat 2018-03-20 09:30:11 Use 0.000000 s
+
+[ 2018-03-20T09:30:11+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_sumbit.html
+ERR: 1048:Column 'type' cannot be null
+ [ SQL语句 ] : INSERT INTO `crm_employee_change_log` (`e_id`,`type`,`op_id`,`op_time`,`remark`,`add_time`) VALUES ('1',NULL,'100','1521509311','暂时','1521509411')
+
+[ 2018-03-20T09:30:39+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+ERR: Cron:cron Runat 2018-03-20 09:30:39 Use 0.000000 s
+
+[ 2018-03-20T09:30:39+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:30:40+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0010s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:31:05+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+ERR: Cron:cron Runat 2018-03-20 09:31:05 Use 0.000000 s
+
+[ 2018-03-20T09:31:05+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0010s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T09:31:16+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+ERR: Cron:cron Runat 2018-03-20 09:31:16 Use 0.000000 s
+
+[ 2018-03-20T09:31:16+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T11:14:45+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+ERR: Cron:cron Runat 2018-03-20 11:14:45 Use 0.000000 s
+
+[ 2018-03-20T11:14:45+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0020s ]
+
+[ 2018-03-20T11:14:46+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0010s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T11:15:02+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+ERR: Cron:cron Runat 2018-03-20 11:15:02 Use 0.000000 s
+
+[ 2018-03-20T11:15:02+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0010s ]
+
+[ 2018-03-20T17:19:27+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+ERR: Cron:cron Runat 2018-03-20 17:19:27 Use 0.000000 s
+
+[ 2018-03-20T17:19:27+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_class.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`parent` FROM `product_class` WHERE `flag` = 1 ORDER BY parent,id  [ RunTime:0.0020s ]
+SQL: SELECT `parent` FROM `product_class` WHERE `flag` = 1 GROUP BY parent ORDER BY parent,id  [ RunTime:0.0020s ]
+
+[ 2018-03-20T17:20:04+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_submit.html
+ERR: Cron:cron Runat 2018-03-20 17:20:04 Use 0.000000 s
+
+[ 2018-03-20T17:21:13+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_submit.html
+ERR: Cron:cron Runat 2018-03-20 17:21:13 Use 0.000000 s
+
+[ 2018-03-20T17:23:07+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_submit.html
+ERR: Cron:cron Runat 2018-03-20 17:23:07 Use 0.000000 s
+
+[ 2018-03-20T17:23:19+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_submit.html
+ERR: Cron:cron Runat 2018-03-20 17:23:19 Use 0.001000 s
+
+[ 2018-03-20T17:23:30+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_submit.html
+ERR: Cron:cron Runat 2018-03-20 17:23:30 Use 0.000000 s
+
+[ 2018-03-20T17:29:47+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test_submit.html
+ERR: Cron:cron Runat 2018-03-20 17:29:47 Use 0.000000 s
+
+[ 2018-03-20T17:53:49+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 17:53:49 Use 0.001000 s
+
+[ 2018-03-20T17:57:38+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 17:57:38 Use 0.000000 s
+
+[ 2018-03-20T17:57:48+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 17:57:48 Use 0.000000 s
+
+[ 2018-03-20T17:58:22+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 17:58:22 Use 0.001000 s
+
+[ 2018-03-20T17:58:56+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 17:58:56 Use 0.000000 s
+
+[ 2018-03-20T18:09:38+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 18:09:38 Use 0.000000 s
+
+[ 2018-03-20T18:10:32+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 18:10:32 Use 0.000000 s
+
+[ 2018-03-20T18:11:55+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 18:11:55 Use 0.001000 s
+
+[ 2018-03-20T18:12:31+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 18:12:31 Use 0.000000 s
+
+[ 2018-03-20T18:12:47+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 18:12:47 Use 0.001000 s
+
+[ 2018-03-20T18:12:59+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 18:12:59 Use 0.001000 s
+
+[ 2018-03-20T18:13:23+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 18:13:23 Use 0.000000 s
+
+[ 2018-03-20T18:13:23+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Invalid cell coordinate 2
+
+[ 2018-03-20T18:16:05+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 18:16:05 Use 0.000000 s
+
+[ 2018-03-20T18:16:05+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Invalid cell coordinate 2
+
+[ 2018-03-20T18:16:07+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Invalid cell coordinate 2
+
+[ 2018-03-20T18:17:15+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Cron:cron Runat 2018-03-20 18:17:15 Use 0.000000 s
+
+[ 2018-03-20T18:17:15+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Invalid cell coordinate 2
+
+[ 2018-03-20T18:17:16+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Invalid cell coordinate 2
+
+[ 2018-03-20T18:17:16+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Invalid cell coordinate 2
+
+[ 2018-03-20T18:17:16+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Invalid cell coordinate 2
+
+[ 2018-03-20T18:17:16+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Invalid cell coordinate 2
+
+[ 2018-03-20T18:17:16+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Invalid cell coordinate 2
+
+[ 2018-03-20T18:17:18+08:00 ] ::1 /mythinkphp/index.php/test2/member/daochu
+ERR: Invalid cell coordinate 2
+

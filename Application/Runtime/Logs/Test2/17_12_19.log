@@ -1,0 +1,39 @@
+[ 2017-12-19T09:40:13+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_roles_list
+ERR: Cron:cron Runat 2017-12-19 09:40:13 Use 0.002001 s
+
+[ 2017-12-19T09:41:14+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_roles_list
+ERR: Cron:cron Runat 2017-12-19 09:41:14 Use 0.000000 s
+
+[ 2017-12-19T10:27:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-19 10:27:35 Use 0.000000 s
+
+[ 2017-12-19T10:40:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-19 10:40:40 Use 0.000000 s
+
+[ 2017-12-19T11:43:26+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-19 11:43:26 Use 0.000000 s
+
+[ 2017-12-19T14:38:59+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-19 14:38:59 Use 0.000000 s
+
+[ 2017-12-19T14:39:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-19 14:39:40 Use 0.000000 s
+
+[ 2017-12-19T14:43:44+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-19 14:43:44 Use 0.001000 s
+
+[ 2017-12-19T16:10:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-19 16:10:50 Use 0.000000 s
+
+[ 2017-12-19T17:20:28+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-19 17:20:28 Use 0.001000 s
+
+[ 2017-12-19T17:21:29+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-19 17:21:29 Use 0.000000 s
+
+[ 2017-12-19T17:25:53+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_initialization
+ERR: Cron:cron Runat 2017-12-19 17:25:53 Use 0.000000 s
+
+[ 2017-12-19T18:30:28+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_department_list
+ERR: Cron:cron Runat 2017-12-19 18:30:28 Use 0.000000 s
+

@@ -1,0 +1,36 @@
+[ 2018-01-20T10:26:47+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-20 10:26:47 Use 0.003000 s
+
+[ 2018-01-20T13:40:14+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-20 13:40:14 Use 0.001000 s
+
+[ 2018-01-20T13:41:25+08:00 ] ::1 /mythinkphp/index.php/test2/matters/change_introduction
+ERR: Cron:cron Runat 2018-01-20 13:41:25 Use 0.001000 s
+
+[ 2018-01-20T13:44:25+08:00 ] ::1 /mythinkphp/index.php/test2/matters/change_introduction
+ERR: Cron:cron Runat 2018-01-20 13:44:25 Use 0.000000 s
+
+[ 2018-01-20T13:52:48+08:00 ] ::1 /mythinkphp/index.php/test2/matters/change_introduction
+ERR: Cron:cron Runat 2018-01-20 13:52:48 Use 0.000000 s
+
+[ 2018-01-20T13:55:05+08:00 ] ::1 /mythinkphp/index.php/test2/matters/change_introduction
+ERR: Cron:cron Runat 2018-01-20 13:55:05 Use 0.000000 s
+
+[ 2018-01-20T13:55:29+08:00 ] ::1 /mythinkphp/index.php/test2/matters/change_introduction
+ERR: Cron:cron Runat 2018-01-20 13:55:29 Use 0.000000 s
+
+[ 2018-01-20T13:58:07+08:00 ] ::1 /mythinkphp/index.php/test2/matters/change_introduction
+ERR: Cron:cron Runat 2018-01-20 13:58:07 Use 0.000000 s
+
+[ 2018-01-20T14:00:04+08:00 ] ::1 /mythinkphp/index.php/test2/matters/change_introduction
+ERR: Cron:cron Runat 2018-01-20 14:00:04 Use 0.001000 s
+
+[ 2018-01-20T14:00:23+08:00 ] ::1 /mythinkphp/index.php/test2/matters/change_introduction
+ERR: Cron:cron Runat 2018-01-20 14:00:23 Use 0.000000 s
+
+[ 2018-01-20T14:02:31+08:00 ] ::1 /mythinkphp/index.php/test2/matters/change_introduction
+ERR: Cron:cron Runat 2018-01-20 14:02:31 Use 0.000000 s
+
+[ 2018-01-20T14:02:54+08:00 ] ::1 /mythinkphp/index.php/test2/matters/change_introduction
+ERR: Cron:cron Runat 2018-01-20 14:02:54 Use 0.000000 s
+

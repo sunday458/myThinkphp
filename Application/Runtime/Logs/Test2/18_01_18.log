@@ -1,0 +1,863 @@
+[ 2018-01-18T16:04:00+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:04:00 Use 0.000000 s
+
+[ 2018-01-18T16:07:32+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:07:32 Use 0.001000 s
+
+[ 2018-01-18T16:08:02+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:08:02 Use 0.001000 s
+
+[ 2018-01-18T16:08:02+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: 1146:Table 'test.tables' doesn't exist
+ [ SQL语句 ] :  SELECT CONCAT( 'drop table ', table_name, ';' ) FROM test.tables WHERE table_name LIKE 'wp_%'; 
+
+[ 2018-01-18T16:08:12+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: 1109:Unknown table 'test' in information_schema
+ [ SQL语句 ] :  SELECT CONCAT( 'drop table ', table_name, ';' ) FROM information_schema.test WHERE table_name LIKE 'wp_%'; 
+
+[ 2018-01-18T16:08:43+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:08:43 Use 0.000000 s
+
+[ 2018-01-18T16:08:43+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: 1146:Table 'test.ts_ts_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ts_ts_user`
+
+[ 2018-01-18T16:08:54+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:08:54 Use 0.000000 s
+
+[ 2018-01-18T16:08:54+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: 1146:Table 'test.ts_users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ts_users`
+
+[ 2018-01-18T16:09:04+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:09:04 Use 0.000000 s
+
+[ 2018-01-18T16:09:19+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:09:19 Use 0.000000 s
+
+[ 2018-01-18T16:09:59+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:09:59 Use 0.000000 s
+
+[ 2018-01-18T16:09:59+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sql FROM information_schema.tables WHERE table_name LIKE 'wp_%'' at line 1
+ [ SQL语句 ] :  SELECT CONCAT( 'drop table ', table_name, ';' ) AS sql FROM information_schema.tables WHERE table_name LIKE 'wp_%'; 
+
+[ 2018-01-18T16:10:25+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:10:25 Use 0.000000 s
+
+[ 2018-01-18T16:10:25+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: 1065:Query was empty
+
+[ 2018-01-18T16:10:56+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:10:56 Use 0.000000 s
+
+[ 2018-01-18T16:11:21+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:11:21 Use 0.000000 s
+
+[ 2018-01-18T16:11:53+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:11:53 Use 0.001000 s
+
+[ 2018-01-18T16:11:53+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_action;
+
+[ 2018-01-18T16:12:32+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:12:32 Use 0.000000 s
+
+[ 2018-01-18T16:12:32+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_action_log;
+
+[ 2018-01-18T16:12:37+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_addon_category;
+
+[ 2018-01-18T16:12:38+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_addons;
+
+[ 2018-01-18T16:12:39+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_admin_log;
+
+[ 2018-01-18T16:12:39+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_analysis;
+
+[ 2018-01-18T16:12:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_api;
+
+[ 2018-01-18T16:12:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_api_access_token;
+
+[ 2018-01-18T16:12:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_api_param;
+
+[ 2018-01-18T16:12:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_apps;
+
+[ 2018-01-18T16:12:41+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_apps_auth;
+
+[ 2018-01-18T16:12:41+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_apps_check;
+
+[ 2018-01-18T16:12:41+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_apps_follow;
+
+[ 2018-01-18T16:12:41+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_apps_group;
+
+[ 2018-01-18T16:12:41+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_apps_link;
+
+[ 2018-01-18T16:12:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_area;
+
+[ 2018-01-18T16:12:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:12:42 Use 0.000000 s
+
+[ 2018-01-18T16:12:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_article_style;
+
+[ 2018-01-18T16:12:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_article_style_group;
+
+[ 2018-01-18T16:12:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_ask;
+
+[ 2018-01-18T16:12:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_ask_answer;
+
+[ 2018-01-18T16:12:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_ask_question;
+
+[ 2018-01-18T16:12:43+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_attachment;
+
+[ 2018-01-18T16:12:43+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_auth_extend;
+
+[ 2018-01-18T16:12:43+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_auth_group;
+
+[ 2018-01-18T16:12:43+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_auth_group_access;
+
+[ 2018-01-18T16:12:44+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_auth_rule;
+
+[ 2018-01-18T16:12:44+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_auto_reply;
+
+[ 2018-01-18T16:12:44+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_business_card;
+
+[ 2018-01-18T16:12:45+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_business_card_collect;
+
+[ 2018-01-18T16:12:45+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_business_card_column;
+
+[ 2018-01-18T16:12:45+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_buy_log;
+
+[ 2018-01-18T16:12:46+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_card_coupons;
+
+[ 2018-01-18T16:12:46+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_card_custom;
+
+[ 2018-01-18T16:12:46+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_card_level;
+
+[ 2018-01-18T16:12:46+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_card_marketing;
+
+[ 2018-01-18T16:12:46+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_card_member;
+
+[ 2018-01-18T16:12:47+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_card_notice;
+
+[ 2018-01-18T16:12:47+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_card_privilege;
+
+[ 2018-01-18T16:12:47+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_card_recharge;
+
+[ 2018-01-18T16:12:47+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_card_recharge_condition;
+
+[ 2018-01-18T16:12:48+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_card_reward;
+
+[ 2018-01-18T16:12:48+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_card_score;
+
+[ 2018-01-18T16:12:48+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_card_vouchers;
+
+[ 2018-01-18T16:12:48+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_channel;
+
+[ 2018-01-18T16:12:48+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_city;
+
+[ 2018-01-18T16:12:49+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_cms;
+
+[ 2018-01-18T16:12:49+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_comment;
+
+[ 2018-01-18T16:12:49+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_common_category;
+
+[ 2018-01-18T16:12:49+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_common_category_group;
+
+[ 2018-01-18T16:12:49+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_config;
+
+[ 2018-01-18T16:12:49+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_coupon;
+
+[ 2018-01-18T16:12:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_coupon_shop;
+
+[ 2018-01-18T16:12:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_coupon_shop_link;
+
+[ 2018-01-18T16:12:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_credit_config;
+
+[ 2018-01-18T16:13:10+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:13:10 Use 0.000000 s
+
+[ 2018-01-18T16:13:10+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_credit_data;
+
+[ 2018-01-18T16:15:24+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:15:24 Use 0.000000 s
+
+[ 2018-01-18T16:15:24+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_custom_menu;
+
+[ 2018-01-18T16:15:24+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_custom_menu_rule;
+
+[ 2018-01-18T16:15:24+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_custom_reply_mult;
+
+[ 2018-01-18T16:15:24+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_custom_reply_news;
+
+[ 2018-01-18T16:15:24+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_custom_reply_text;
+
+[ 2018-01-18T16:15:24+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_custom_sendall;
+
+[ 2018-01-18T16:15:25+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_customer;
+
+[ 2018-01-18T16:15:25+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_debug_log;
+
+[ 2018-01-18T16:15:25+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_docs;
+
+[ 2018-01-18T16:15:25+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_draw_follow_log;
+
+[ 2018-01-18T16:15:26+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_error_log;
+
+[ 2018-01-18T16:15:26+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_exam;
+
+[ 2018-01-18T16:15:26+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_exam_answer;
+
+[ 2018-01-18T16:15:26+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_exam_question;
+
+[ 2018-01-18T16:15:26+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_feedback;
+
+[ 2018-01-18T16:15:27+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_file;
+
+[ 2018-01-18T16:15:27+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_forms;
+
+[ 2018-01-18T16:15:27+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_forms_attribute;
+
+[ 2018-01-18T16:15:27+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_forms_value;
+
+[ 2018-01-18T16:15:27+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_forum;
+
+[ 2018-01-18T16:15:28+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_guess;
+
+[ 2018-01-18T16:15:28+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_guess_log;
+
+[ 2018-01-18T16:15:28+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_guess_option;
+
+[ 2018-01-18T16:15:28+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_hooks;
+
+[ 2018-01-18T16:15:29+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_import;
+
+[ 2018-01-18T16:15:29+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_invite;
+
+[ 2018-01-18T16:15:29+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_invite_code;
+
+[ 2018-01-18T16:15:29+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_invite_user;
+
+[ 2018-01-18T16:15:29+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_join_count;
+
+[ 2018-01-18T16:15:30+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_keyword;
+
+[ 2018-01-18T16:15:30+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_lottery_games;
+
+[ 2018-01-18T16:15:30+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_lottery_games_award_link;
+
+[ 2018-01-18T16:15:30+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_lottery_prize_list;
+
+[ 2018-01-18T16:15:30+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_lucky_follow;
+
+[ 2018-01-18T16:15:31+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_lzwg_activities;
+
+[ 2018-01-18T16:15:31+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_lzwg_activities_vote;
+
+[ 2018-01-18T16:15:31+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_lzwg_coupon;
+
+[ 2018-01-18T16:15:31+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_lzwg_coupon_receive;
+
+[ 2018-01-18T16:15:31+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_lzwg_coupon_sn;
+
+[ 2018-01-18T16:15:31+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_lzwg_log;
+
+[ 2018-01-18T16:15:32+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_lzwg_vote;
+
+[ 2018-01-18T16:15:32+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_lzwg_vote_log;
+
+[ 2018-01-18T16:15:32+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_lzwg_vote_option;
+
+[ 2018-01-18T16:15:32+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_manager;
+
+[ 2018-01-18T16:15:32+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_material_file;
+
+[ 2018-01-18T16:15:33+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:15:33 Use 0.001000 s
+
+[ 2018-01-18T16:15:33+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_material_image;
+
+[ 2018-01-18T16:15:33+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_material_news;
+
+[ 2018-01-18T16:15:33+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_material_text;
+
+[ 2018-01-18T16:15:33+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_menu;
+
+[ 2018-01-18T16:15:34+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_message;
+
+[ 2018-01-18T16:15:34+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_model;
+
+[ 2018-01-18T16:15:34+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_online_count;
+
+[ 2018-01-18T16:15:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_payment;
+
+[ 2018-01-18T16:15:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_payment_order;
+
+[ 2018-01-18T16:15:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_payment_scan;
+
+[ 2018-01-18T16:15:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_payment_set;
+
+[ 2018-01-18T16:15:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_picture;
+
+[ 2018-01-18T16:15:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_picture_category;
+
+[ 2018-01-18T16:15:36+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_plugin;
+
+[ 2018-01-18T16:15:36+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_prize_address;
+
+[ 2018-01-18T16:15:36+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_qr_admin;
+
+[ 2018-01-18T16:15:36+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_qr_code;
+
+[ 2018-01-18T16:15:37+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_real_prize;
+
+[ 2018-01-18T16:15:37+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_recharge_log;
+
+[ 2018-01-18T16:15:37+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_redbag;
+
+[ 2018-01-18T16:15:37+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_redbag_follow;
+
+[ 2018-01-18T16:15:37+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_redbag_recode;
+
+[ 2018-01-18T16:15:38+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_request_log;
+
+[ 2018-01-18T16:15:38+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_reserve;
+
+[ 2018-01-18T16:15:38+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_reserve_attribute;
+
+[ 2018-01-18T16:15:38+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_reserve_option;
+
+[ 2018-01-18T16:15:38+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_reserve_value;
+
+[ 2018-01-18T16:15:39+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_score_exchange_log;
+
+[ 2018-01-18T16:15:39+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_servicer;
+
+[ 2018-01-18T16:15:39+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_share_log;
+
+[ 2018-01-18T16:15:39+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_shop_address;
+
+[ 2018-01-18T16:15:39+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_shop_coupon;
+
+[ 2018-01-18T16:15:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_shop_vote;
+
+[ 2018-01-18T16:15:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_shop_vote_log;
+
+[ 2018-01-18T16:15:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_shop_vote_option;
+
+[ 2018-01-18T16:15:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_signin_log;
+
+[ 2018-01-18T16:15:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_smalltools;
+
+[ 2018-01-18T16:15:41+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_sms;
+
+[ 2018-01-18T16:15:41+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_sn_code;
+
+[ 2018-01-18T16:15:41+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_sport_award;
+
+[ 2018-01-18T16:15:41+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_sports;
+
+[ 2018-01-18T16:15:41+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_sports_drum;
+
+[ 2018-01-18T16:15:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_sports_join;
+
+[ 2018-01-18T16:15:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_sports_support;
+
+[ 2018-01-18T16:15:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_sports_team;
+
+[ 2018-01-18T16:15:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_store;
+
+[ 2018-01-18T16:15:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_sucai;
+
+[ 2018-01-18T16:15:43+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:15:43 Use 0.000000 s
+
+[ 2018-01-18T16:15:43+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_sucai_template;
+
+[ 2018-01-18T16:15:43+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_survey;
+
+[ 2018-01-18T16:15:44+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_survey_answer;
+
+[ 2018-01-18T16:15:44+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_survey_question;
+
+[ 2018-01-18T16:15:44+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_system_notice;
+
+[ 2018-01-18T16:15:44+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_test;
+
+[ 2018-01-18T16:15:45+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_test_answer;
+
+[ 2018-01-18T16:15:46+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_test_question;
+
+[ 2018-01-18T16:15:46+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_tool;
+
+[ 2018-01-18T16:15:46+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_transfers_recode;
+
+[ 2018-01-18T16:15:47+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_update_score_log;
+
+[ 2018-01-18T16:15:47+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_update_version;
+
+[ 2018-01-18T16:15:47+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_user;
+
+[ 2018-01-18T16:15:47+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_user_follow;
+
+[ 2018-01-18T16:15:47+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_user_tag;
+
+[ 2018-01-18T16:15:47+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_user_tag_link;
+
+[ 2018-01-18T16:15:47+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_visit_log;
+
+[ 2018-01-18T16:15:48+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_vote;
+
+[ 2018-01-18T16:15:48+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_vote_log;
+
+[ 2018-01-18T16:15:48+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_vote_option;
+
+[ 2018-01-18T16:15:48+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_we_media_category;
+
+[ 2018-01-18T16:15:48+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_wei_shop;
+
+[ 2018-01-18T16:15:48+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_wei_test;
+
+[ 2018-01-18T16:15:49+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba;
+
+[ 2018-01-18T16:15:49+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_apply;
+
+[ 2018-01-18T16:15:49+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_blacklist;
+
+[ 2018-01-18T16:15:49+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_category;
+
+[ 2018-01-18T16:15:49+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_event;
+
+[ 2018-01-18T16:15:49+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_event_attr;
+
+[ 2018-01-18T16:15:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_event_user;
+
+[ 2018-01-18T16:15:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_favorite;
+
+[ 2018-01-18T16:15:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_follow;
+
+[ 2018-01-18T16:15:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_log;
+
+[ 2018-01-18T16:15:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_post;
+
+[ 2018-01-18T16:15:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_post_digg;
+
+[ 2018-01-18T16:15:51+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_post_share_logs;
+
+[ 2018-01-18T16:15:51+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_reply;
+
+[ 2018-01-18T16:15:51+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_reply_digg;
+
+[ 2018-01-18T16:15:51+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weiba_tag;
+
+[ 2018-01-18T16:15:51+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weisite_category;
+
+[ 2018-01-18T16:15:52+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weisite_cms;
+
+[ 2018-01-18T16:15:52+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weisite_footer;
+
+[ 2018-01-18T16:15:52+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weisite_slideshow;
+
+[ 2018-01-18T16:15:52+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_weixin_message;
+
+[ 2018-01-18T16:15:52+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_wish_card;
+
+[ 2018-01-18T16:15:52+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_wish_card_content;
+
+[ 2018-01-18T16:15:53+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:15:53 Use 0.001001 s
+
+[ 2018-01-18T16:15:53+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_wish_card_content_cate;
+
+[ 2018-01-18T16:15:53+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: :
+ [ SQL语句 ] : drop table wp_xdlog;
+
+[ 2018-01-18T16:20:58+08:00 ] ::1 /mythinkphp/index.php/test2/matters/test_val
+ERR: Cron:cron Runat 2018-01-18 16:20:58 Use 0.000000 s
+

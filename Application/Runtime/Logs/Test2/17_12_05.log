@@ -1,0 +1,55 @@
+[ 2017-12-05T14:31:17+08:00 ] ::1 /mythinkphp/index.php/test2/test/test
+ERR: 非法操作:test
+
+[ 2017-12-05T17:16:15+08:00 ] ::1 /mythinkphp/index.php/test2/member/test
+ERR: 1146:Table 'test.jy_member_level_and_point_tbl' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jy_member_level_and_point_tbl`
+
+[ 2017-12-05T17:43:20+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_deal_data
+ERR: 1146:Table 'test.ts_' doesn't exist
+ [ SQL语句 ] : UPDATE `ts_` SET `plus_point_total`=plus_point_total+50 WHERE `customer_id` = 1
+
+[ 2017-12-05T17:45:14+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_deal_data
+ERR: 1146:Table 'test.ts_' doesn't exist
+ [ SQL语句 ] : UPDATE `ts_` SET `plus_point_total`=plus_point_total+50 WHERE `customer_id` = 1
+
+[ 2017-12-05T17:45:15+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_deal_data
+ERR: 1146:Table 'test.ts_' doesn't exist
+ [ SQL语句 ] : UPDATE `ts_` SET `plus_point_total`=plus_point_total+50 WHERE `customer_id` = 1
+
+[ 2017-12-05T17:49:23+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_deal_data
+ERR: 1146:Table 'test.ts_' doesn't exist
+ [ SQL语句 ] : UPDATE `ts_` SET `plus_point_total`=plus_point_total+50 WHERE `customer_id` = 1
+
+[ 2017-12-05T17:53:07+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_deal_data
+ERR: 1146:Table 'test.ts_' doesn't exist
+ [ SQL语句 ] : UPDATE `ts_` SET `plus_point_total`=plus_point_total+50 WHERE `customer_id` = 1
+
+[ 2017-12-05T17:55:23+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_deal_data
+ERR: 1146:Table 'test.ts_' doesn't exist
+ [ SQL语句 ] : UPDATE `ts_` SET `plus_point_total`=plus_point_total+50 WHERE `customer_id` = 1
+
+[ 2017-12-05T17:56:15+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_deal_data
+ERR: 1146:Table 'test.ts_' doesn't exist
+ [ SQL语句 ] : UPDATE `ts_` SET `plus_point_total`=plus_point_total+50 WHERE `customer_id` = 1
+
+[ 2017-12-05T17:57:05+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_deal_data
+ERR: 1146:Table 'test.ts_' doesn't exist
+ [ SQL语句 ] : UPDATE `ts_` SET `plus_point_total`=plus_point_total+50 WHERE `customer_id` = 1
+
+[ 2017-12-05T17:57:48+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_deal_data
+ERR: 1146:Table 'test.ts_' doesn't exist
+ [ SQL语句 ] : UPDATE `ts_` SET `plus_point_total`=plus_point_total+50 WHERE `customer_id` = 1
+
+[ 2017-12-05T18:01:56+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_deal_data
+ERR: 1146:Table 'test.yj_yj_member_level_and_point_log_1_tbl' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yj_yj_member_level_and_point_log_1_tbl`
+
+[ 2017-12-05T18:08:51+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_deal_data
+ERR: 1054:Unknown column '受邀注册' in 'field list'
+ [ SQL语句 ] : UPDATE `yj_member_level_and_point_tbl` SET `plus_point_total`=plus_point_total+受邀注册 WHERE `customer_id` = 1
+
+[ 2017-12-05T18:26:44+08:00 ] ::1 /mythinkphp/index.php/test2/member/test_deal_data
+ERR: 1146:Table 'test.yj_' doesn't exist
+ [ SQL语句 ] : INSERT INTO `yj_` (`type_id`,`add_time`,`customer_id`,`point`,`remark`,`params`) VALUES ('8','1512469604','1','10','连续7天签到','')
+

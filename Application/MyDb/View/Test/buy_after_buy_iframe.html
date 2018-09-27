@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>预览页面</title>
+    <style type="text/css">
+        iframe,div{margin: 0;padding: 0}
+        .clearfix{
+            clear: both;
+        }
+        .title{
+            background-color: #fafafa;
+            border-bottom: 1px solid #ddd;
+            color: #333;
+            font-size: 14px;
+            font-weight: 700;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 20px;
+        }
+        .item{
+            border-bottom: 1px dashed #ddd;
+            margin: 0 15px;
+            padding: 15px 0;
+        }
+        .txt-long-cut {
+	         white-space: nowrap;
+	         overflow: hidden;
+	         text-overflow: ellipsis;
+		}
+		.color-666 {color: #666}
+		.color-ff5 {
+   			 color: #ff5959;
+		 }
+		.p1,.p2,.p3{margin: 2px;padding: 0}
+    </style>
+</head>
+<body>
+   <!--  <iframe id="iframepage" width='90%' height="100%" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes" src="http://goods.yueus.com/?goods_id=2140625" onLoad="iFrameHeight()" style="float: left;">      
+    </iframe>-->
+   <iframe id="mainFrame" name="mainFrame" scrolling="no" src="http://goods.yueus.com/?goods_id=2140625"frameborder="0" style="padding: 0px; width: 84%; height: 1500px;float: left;">
+   	
+   </iframe>
+    <div  style="width:15%;float: left;" >
+    	<div class="part-b">
+            <div class="title">看完又看</div>
+                <div style="position: relative;">
+                    <a href="">
+                        <div class="item  clearfix" >
+	                        <div>
+	                            <img src="Application/Test/img/001.jpg" style="width: 70px; margin-top: 0px;" class="img loaded">
+	                        </div>
+	                        <div style="width:70%;height:60px;position: absolute;left: 40%;top: 15%;">
+	                            <p class="p1 color-666 txt-long-cut">Q萌小头像</p>
+	                            <p class="p2 color-ff5">￥15.00</p>
+	                            <p class="p3 color-999">已售：2</p>
+	                        </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+        startInit('mainFrame', 560);
+</script>
+</html>

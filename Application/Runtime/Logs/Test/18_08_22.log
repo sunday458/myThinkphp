@@ -1,0 +1,27 @@
+[ 2018-08-22T17:31:20+08:00 ] ::1 /mythinkphp/index.php/test/test3/jisuan
+ERR: Cron:cron Runat 2018-08-22 17:31:20 Use 0.000000 s
+
+[ 2018-08-22T17:31:45+08:00 ] ::1 /mythinkphp/index.php/test/test3/jisuan
+ERR: Cron:cron Runat 2018-08-22 17:31:45 Use 0.000000 s
+
+[ 2018-08-22T17:31:55+08:00 ] ::1 /mythinkphp/index.php/test/test3/jisuan
+ERR: Cron:cron Runat 2018-08-22 17:31:55 Use 0.000000 s
+
+[ 2018-08-22T17:32:09+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_num
+ERR: Cron:cron Runat 2018-08-22 17:32:09 Use 0.000000 s
+
+[ 2018-08-22T17:32:29+08:00 ] ::1 /mythinkphp/index.php/test/test3/test_num
+ERR: Cron:cron Runat 2018-08-22 17:32:29 Use 0.000000 s
+
+[ 2018-08-22T17:38:52+08:00 ] ::1 /mythinkphp/index.php/test/test3/jisuan
+ERR: Cron:cron Runat 2018-08-22 17:38:52 Use 0.000000 s
+
+[ 2018-08-22T18:04:12+08:00 ] ::1 /mythinkphp/index.php/test/test3/jisuan
+ERR: Cron:cron Runat 2018-08-22 18:04:12 Use 0.001000 s
+
+[ 2018-08-22T18:53:18+08:00 ] ::1 /mythinkphp/index.php/test/test3/jisuan
+ERR: Cron:cron Runat 2018-08-22 18:53:18 Use 0.000000 s
+
+[ 2018-08-22T18:53:37+08:00 ] ::1 /mythinkphp/index.php/test/test3/jisuan
+ERR: Cron:cron Runat 2018-08-22 18:53:37 Use 0.001000 s
+

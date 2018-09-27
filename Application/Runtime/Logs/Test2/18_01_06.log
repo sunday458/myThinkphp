@@ -1,0 +1,92 @@
+[ 2018-01-06T09:39:01+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-06 09:39:01 Use 0.004000 s
+
+[ 2018-01-06T09:46:27+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-06 09:46:27 Use 0.001000 s
+
+[ 2018-01-06T09:46:42+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-06 09:46:42 Use 0.000000 s
+
+[ 2018-01-06T09:46:54+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-06 09:46:54 Use 0.000000 s
+
+[ 2018-01-06T09:47:29+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-06 09:47:29 Use 0.000000 s
+
+[ 2018-01-06T09:48:17+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-06 09:48:17 Use 0.000000 s
+
+[ 2018-01-06T09:49:37+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-06 09:49:37 Use 0.000000 s
+
+[ 2018-01-06T09:50:00+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-06 09:50:00 Use 0.000000 s
+
+[ 2018-01-06T09:50:19+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-06 09:50:19 Use 0.000000 s
+
+[ 2018-01-06T09:53:12+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-06 09:53:12 Use 0.000000 s
+
+[ 2018-01-06T09:53:28+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data
+ERR: Cron:cron Runat 2018-01-06 09:53:28 Use 0.000000 s
+
+[ 2018-01-06T17:07:16+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_dep_position
+ERR: Cron:cron Runat 2018-01-06 17:07:16 Use 0.001000 s
+
+[ 2018-01-06T17:07:29+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_dep_position
+ERR: Cron:cron Runat 2018-01-06 17:07:29 Use 0.000000 s
+
+[ 2018-01-06T17:14:40+08:00 ] ::1 /mythinkphp/index.php/test2/matters/add_dep_position
+ERR: Cron:cron Runat 2018-01-06 17:14:40 Use 0.000000 s
+
+[ 2018-01-06T17:25:46+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-06 17:25:46 Use 0.000000 s
+
+[ 2018-01-06T17:26:09+08:00 ] ::1 /mythinkphp/index.php/test2/matters/update_dep_position
+ERR: Cron:cron Runat 2018-01-06 17:26:09 Use 0.000000 s
+
+[ 2018-01-06T17:26:09+08:00 ] ::1 /mythinkphp/index.php/test2/matters/update_dep_position
+ERR: 1054:Unknown column 'd.dep_id' in 'on clause'
+ [ SQL语句 ] : SELECT p.id as id,p.dep_id,p.position_name,p.status,d.name as dep_name FROM yj_position_tbl p  LEFT JOIN department d ON d.dep_id = p.id   WHERE p.id = 1 ORDER BY p.add_time DESC 
+
+[ 2018-01-06T17:27:01+08:00 ] ::1 /mythinkphp/index.php/test2/matters/update_dep_position
+ERR: Cron:cron Runat 2018-01-06 17:27:01 Use 0.000000 s
+
+[ 2018-01-06T17:27:44+08:00 ] ::1 /mythinkphp/index.php/test2/matters/update_dep_position
+ERR: Cron:cron Runat 2018-01-06 17:27:44 Use 0.000000 s
+
+[ 2018-01-06T17:29:21+08:00 ] ::1 /mythinkphp/index.php/test2/matters/update_dep_position
+ERR: Cron:cron Runat 2018-01-06 17:29:21 Use 0.001000 s
+
+[ 2018-01-06T17:35:31+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data_list
+ERR: Cron:cron Runat 2018-01-06 17:35:31 Use 0.000000 s
+
+[ 2018-01-06T17:36:41+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data_list
+ERR: Cron:cron Runat 2018-01-06 17:36:41 Use 0.000000 s
+
+[ 2018-01-06T17:36:52+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data_list
+ERR: Cron:cron Runat 2018-01-06 17:36:52 Use 0.001000 s
+
+[ 2018-01-06T17:37:07+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data_list
+ERR: Cron:cron Runat 2018-01-06 17:37:07 Use 0.000000 s
+
+[ 2018-01-06T17:37:50+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data_list
+ERR: Cron:cron Runat 2018-01-06 17:37:50 Use 0.000000 s
+
+[ 2018-01-06T17:39:16+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data_list
+ERR: Cron:cron Runat 2018-01-06 17:39:16 Use 0.001001 s
+
+[ 2018-01-06T17:39:16+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data_list
+ERR: 1052:Column 'status' in where clause is ambiguous
+ [ SQL语句 ] : SELECT p.id as id,p.dep_id,p.position_name,p.status,d.name as dep_name FROM yj_position_tbl p  LEFT JOIN department d ON p.dep_id = d.id   WHERE `status` = 1 ORDER BY p.add_time DESC 
+
+[ 2018-01-06T17:39:35+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_data_list
+ERR: Cron:cron Runat 2018-01-06 17:39:35 Use 0.000000 s
+
+[ 2018-01-06T17:44:59+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-06 17:44:59 Use 0.001001 s
+
+[ 2018-01-06T18:06:11+08:00 ] ::1 /mythinkphp/index.php/test2/matters/get_dep_position_by_ajax
+ERR: Cron:cron Runat 2018-01-06 18:06:11 Use 0.000000 s
+

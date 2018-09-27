@@ -1,0 +1,911 @@
+[ 2017-12-13T10:49:24+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2017-12-13 10:49:24 Use 0.002000 s
+
+[ 2017-12-13T10:49:44+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2017-12-13 10:49:44 Use 0.000000 s
+
+[ 2017-12-13T10:50:05+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2017-12-13 10:50:05 Use 0.000000 s
+
+[ 2017-12-13T10:50:40+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2017-12-13 10:50:40 Use 0.001000 s
+
+[ 2017-12-13T10:51:13+08:00 ] ::1 /mythinkphp/index.php/test2/member/test2
+ERR: Cron:cron Runat 2017-12-13 10:51:13 Use 0.000000 s
+
+[ 2017-12-13T13:51:08+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 13:51:08 Use 0.000000 s
+
+[ 2017-12-13T13:58:51+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 13:58:51 Use 0.000000 s
+
+[ 2017-12-13T14:05:00+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:05:00 Use 0.000000 s
+
+[ 2017-12-13T14:05:02+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `product_class` WHERE `flag` = 1 AND `parent` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = 65  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 9 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 10 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:05:37+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:05:37 Use 0.000000 s
+
+[ 2017-12-13T14:05:39+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Test2\Controller\ActivityController.class.php on line 181 and defined D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `product_class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `product_class` WHERE `flag` = 1 AND `parent` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = 65  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 9 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 10 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+NOTIC: [8] Undefined index: product_class_list D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Runtime\Cache\Test2\479449cf805a247966100e791d412e17.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:05:58+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:05:58 Use 0.000000 s
+
+[ 2017-12-13T14:06:47+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:06:47 Use 0.000000 s
+
+[ 2017-12-13T14:06:50+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Test2\Controller\ActivityController.class.php on line 199 and defined D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:08:15+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:08:15 Use 0.000000 s
+
+[ 2017-12-13T14:08:28+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+ERR: Cron:cron Runat 2017-12-13 14:08:28 Use 0.000000 s
+
+[ 2017-12-13T14:08:28+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0130s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Test2\Controller\ActivityController.class.php on line 199 and defined D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:08:55+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:08:55 Use 0.001000 s
+
+[ 2017-12-13T14:08:57+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Test2\Controller\ActivityController.class.php on line 199 and defined D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:09:30+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:09:30 Use 0.001000 s
+
+[ 2017-12-13T14:09:31+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Test2\Controller\ActivityController.class.php on line 199 and defined D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:12:26+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:12:26 Use 0.000000 s
+
+[ 2017-12-13T14:12:28+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Test2\Controller\ActivityController.class.php on line 199 and defined D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:12:45+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:12:45 Use 0.001000 s
+
+[ 2017-12-13T14:12:47+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:12:56+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:12:56 Use 0.000000 s
+
+[ 2017-12-13T14:12:57+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:13:24+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:13:24 Use 0.000000 s
+
+[ 2017-12-13T14:13:26+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:13:28+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:13:31+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:13:53+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:13:53 Use 0.000000 s
+
+[ 2017-12-13T14:13:54+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-12-13T14:13:59+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:14:10+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:14:10 Use 0.000000 s
+
+[ 2017-12-13T14:14:11+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Test2\Controller\ActivityController.class.php on line 200 and defined D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:17:37+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:17:37 Use 0.000000 s
+
+[ 2017-12-13T14:17:39+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0620s ]
+NOTIC: [8] Undefined variable: product_model D:\phpStudy\PHPTutorial\WWW\myThinkphp\Application\Test2\Controller\ActivityController.class.php 第 203 行.
+
+[ 2017-12-13T14:18:02+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:18:02 Use 0.001000 s
+
+[ 2017-12-13T14:18:04+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '62'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:20:57+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:20:57 Use 0.000000 s
+
+[ 2017-12-13T14:21:02+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:24:12+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:24:12 Use 0.001000 s
+
+[ 2017-12-13T14:24:32+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:24:32 Use 0.000000 s
+
+[ 2017-12-13T14:24:37+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:25:03+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:25:03 Use 0.000000 s
+
+[ 2017-12-13T14:25:06+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '62'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:27:13+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:27:13 Use 0.000000 s
+
+[ 2017-12-13T14:27:17+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:27:41+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:27:41 Use 0.000000 s
+
+[ 2017-12-13T14:27:44+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:28:08+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:28:08 Use 0.000000 s
+
+[ 2017-12-13T14:28:10+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:28:31+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:28:31 Use 0.000000 s
+
+[ 2017-12-13T14:28:33+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0010s ]
+
+[ 2017-12-13T14:28:44+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:28:44 Use 0.001000 s
+
+[ 2017-12-13T14:28:46+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:31:29+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:31:29 Use 0.001000 s
+
+[ 2017-12-13T14:31:32+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '59'  [ RunTime:0.0010s ]
+
+[ 2017-12-13T14:31:39+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0010s ]
+
+[ 2017-12-13T14:31:54+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:31:54 Use 0.000000 s
+
+[ 2017-12-13T14:34:34+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:34:34 Use 0.000000 s
+
+[ 2017-12-13T14:34:41+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:34:43+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '54'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:34:46+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+ERR: Cron:cron Runat 2017-12-13 14:34:46 Use 0.000000 s
+
+[ 2017-12-13T14:34:46+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '62'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:34:48+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '103'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:34:51+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '107'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:34:53+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '138'  [ RunTime:0.0010s ]
+
+[ 2017-12-13T14:34:56+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+ERR: Cron:cron Runat 2017-12-13 14:34:56 Use 0.001000 s
+
+[ 2017-12-13T14:34:56+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:34:57+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '54'  [ RunTime:0.0010s ]
+
+[ 2017-12-13T14:35:00+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:35:02+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '54'  [ RunTime:0.0010s ]
+
+[ 2017-12-13T14:35:44+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:35:44 Use 0.000000 s
+
+[ 2017-12-13T14:35:47+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:35:59+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:35:59 Use 0.000000 s
+
+[ 2017-12-13T14:36:24+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:36:24 Use 0.000000 s
+
+[ 2017-12-13T14:36:42+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:36:42 Use 0.000000 s
+
+[ 2017-12-13T14:37:27+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:37:27 Use 0.000000 s
+
+[ 2017-12-13T14:37:56+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:37:56 Use 0.000000 s
+
+[ 2017-12-13T14:39:22+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:39:22 Use 0.000000 s
+
+[ 2017-12-13T14:44:32+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:44:32 Use 0.000000 s
+
+[ 2017-12-13T14:44:34+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:44:54+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:44:54 Use 0.000000 s
+
+[ 2017-12-13T14:44:56+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:45:45+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:45:45 Use 0.000000 s
+
+[ 2017-12-13T14:45:50+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:46:10+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:46:10 Use 0.000000 s
+
+[ 2017-12-13T14:46:12+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:46:26+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:46:26 Use 0.000000 s
+
+[ 2017-12-13T14:46:27+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:46:37+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+ERR: Cron:cron Runat 2017-12-13 14:46:37 Use 0.001000 s
+
+[ 2017-12-13T14:46:37+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '54'  [ RunTime:0.0010s ]
+
+[ 2017-12-13T14:46:53+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:46:53 Use 0.001000 s
+
+[ 2017-12-13T14:47:20+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:47:20 Use 0.001000 s
+
+[ 2017-12-13T14:47:22+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:47:24+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '54'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:47:26+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '62'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:47:30+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+ERR: Cron:cron Runat 2017-12-13 14:47:30 Use 0.001000 s
+
+[ 2017-12-13T14:47:30+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '76'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:47:32+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '84'  [ RunTime:0.0010s ]
+
+[ 2017-12-13T14:47:34+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '105'  [ RunTime:0.0040s ]
+
+[ 2017-12-13T14:48:20+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:48:20 Use 0.001000 s
+
+[ 2017-12-13T14:48:22+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:48:27+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '59'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:48:30+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+ERR: Cron:cron Runat 2017-12-13 14:48:30 Use 0.000000 s
+
+[ 2017-12-13T14:48:30+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '164'  [ RunTime:0.0010s ]
+
+[ 2017-12-13T14:48:33+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '165'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:48:35+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '62'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:48:38+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:48:41+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+ERR: Cron:cron Runat 2017-12-13 14:48:41 Use 0.000000 s
+
+[ 2017-12-13T14:48:41+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+NOTIC: [2] include(./Application/Common/Cron/myplan.php): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+NOTIC: [2] include(): Failed opening './Application/Common/Cron/myplan.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\PHPTutorial\WWW\myThinkphp\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 44 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '65'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:51:15+08:00 ] ::1 /mythinkphp/index.php/test2/activity/get_product_by_id
+ERR: Cron:cron Runat 2017-12-13 14:51:15 Use 0.000000 s
+
+[ 2017-12-13T14:51:17+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '103'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T14:52:23+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/add_activity_goods_list.html
+ERR: Cron:cron Runat 2017-12-13 14:52:23 Use 0.000000 s
+
+[ 2017-12-13T15:05:35+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:05:35 Use 0.000000 s
+
+[ 2017-12-13T15:06:12+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:06:12 Use 0.000000 s
+
+[ 2017-12-13T15:06:42+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:06:42 Use 0.000000 s
+
+[ 2017-12-13T15:08:12+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:08:12 Use 0.000000 s
+
+[ 2017-12-13T15:08:34+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:08:34 Use 0.000000 s
+
+[ 2017-12-13T15:11:32+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:11:32 Use 0.000000 s
+
+[ 2017-12-13T15:11:49+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:11:49 Use 0.000000 s
+
+[ 2017-12-13T15:12:54+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:12:54 Use 0.000000 s
+
+[ 2017-12-13T15:15:12+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:15:12 Use 0.000000 s
+
+[ 2017-12-13T15:15:26+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:15:26 Use 0.001000 s
+
+[ 2017-12-13T15:16:13+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:16:13 Use 0.000000 s
+
+[ 2017-12-13T15:16:30+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:16:30 Use 0.001001 s
+
+[ 2017-12-13T15:17:20+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:17:20 Use 0.000000 s
+
+[ 2017-12-13T15:19:08+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:19:08 Use 0.000000 s
+
+[ 2017-12-13T15:20:40+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:20:40 Use 0.000000 s
+
+[ 2017-12-13T15:20:55+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:20:55 Use 0.000000 s
+
+[ 2017-12-13T15:21:20+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:21:20 Use 0.000000 s
+
+[ 2017-12-13T15:23:56+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/add_activity_goods_list.html
+ERR: Cron:cron Runat 2017-12-13 15:23:56 Use 0.001000 s
+
+[ 2017-12-13T15:24:07+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:24:07 Use 0.000000 s
+
+[ 2017-12-13T15:25:03+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/add_activity_goods_list.html
+ERR: Cron:cron Runat 2017-12-13 15:25:03 Use 0.001000 s
+
+[ 2017-12-13T15:25:09+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/get_product_by_id2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yj_preferential_activities` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`code`,`name`,`first_class`,`second_class` FROM `product` WHERE `first_class` = '53'  [ RunTime:0.0020s ]
+
+[ 2017-12-13T15:31:31+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/add_activity_goods_list.html
+ERR: Cron:cron Runat 2017-12-13 15:31:31 Use 0.000000 s
+
+[ 2017-12-13T15:35:53+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:35:53 Use 0.000000 s
+
+[ 2017-12-13T15:36:16+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:36:16 Use 0.000000 s
+
+[ 2017-12-13T15:36:56+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:36:56 Use 0.000000 s
+
+[ 2017-12-13T15:38:31+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:38:31 Use 0.000000 s
+
+[ 2017-12-13T15:44:35+08:00 ] ::1 /mythinkphp/index.php/Test2/activity/test
+ERR: Cron:cron Runat 2017-12-13 15:44:35 Use 0.001000 s
+
