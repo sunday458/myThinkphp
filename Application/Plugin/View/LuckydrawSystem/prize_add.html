@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+    <head>
+        <include file="Base@Common:head" />
+        <script src="__ROOT__/Public/task/jquery-ui-1.10.2.custom.min.js" ></script>
+        <script src="__ROOT__/Public/task/jquery.hotkeys.js" ></script>
+        <script src="__ROOT__/Public/task/app.js" ></script>
+        <link rel="stylesheet" type="text/css" href="__ROOT__/Public/task/tasktable.css">
+    </head>
+    <body class="theme-orange">
+        <div class="main_2" id="main_2">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="box fixed">
+                            <div class="box-title fixed">
+                                <h3> {$model_info.catname} </h3>
+                            </div>
+                            <div class="box-content_x fixed">
+                                <div class="form-horizontal">
+                                    <div class="serach_address" >
+                                        <span style="margin-right: 20px;"><a class="btn btn-primary" href="{:U('LuckydrawSystem/drawList')}">返回</a></span>
+                                        <span>活动名称：{$info.title} > 奖品设置</span>
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="box-content nopadding">
+                                <table class="table table-hover table-nomargin">
+                                    <thead>
+                                        <tr>
+                                            <td width="20"><span class="checkboxWrapper"><input type="checkbox" id="all" class="SetItemRow-276_1" tabindex="-1" ><label></label></span></td>
+                                            <td>ID</td>
+                                            <td>奖品</td>
+
+                                            <td>奖品数量</td>
+                                            <td>中奖几率/百分比</td>
+
+                                            <td>剩余奖品</td>
+
+                                            <td>操作</td>
+                                        </tr> 
+                                    </thead>
+                                    <tbody>
+                                    <for start="0" end="19">
+                                        <tr>
+                                            <td><span class="checkboxWrapper"><input type="checkbox"  tabindex="-1" name="tab_list" value="{$list[$i]['id']}"><label></label></span></td>
+                                            <td width="20">{$list[$i]['id']}</td>
+                                            <td><input type='text' name="prize_{$i}" id="prize_{$i}" value="{$list[$i]['prize']}" class="sortE"  /></td>
+                                            <td><input type='text' name="number_{$i}" id="number_{$i}" style="width: 40px;" value="{$list[$i]['number']}" class="sortE"  /></td>
+                                            <td><input type='text' name="odds_{$i}" id="odds_{$i}" style="width: 40px;" value="{$list[$i]['odds']}" class="sortE"  />%</td>
+
+                                            <td ><div id="remain_{$i}">{$list[$i]['remain_num']}</div></td>
+
+                                            <td>
+                                                <div class="bon_icon">
+                                                    <button class="btn btn-primary" onclick="creat_btn('{$i}','{$list[$i][id]}');" data-id="{$i}" >保存</button>
+                                                    <button class="btn btn-primary" onclick="delete_btn('{$i}','{$list[$i][id]}');" data-id="{$i}" >删除</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </for>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="__ROOT__/Public/js/layer/layer.js" ></script>
+        <script>
+            $(".creat").click(function () {
+               window.location.href = "{:U('LuckydrawSystem/add')}";
+            });
+
+
+            //单条保存
+            function creat_btn(i,prize_id) {
+                var prize = $("#prize_"+i).val();
+                var number = $("#number_"+i).val();
+                var odds = $("#odds_"+i).val();
+                if(prize == '' || number=='' || odds == ''){
+                    layer.msg("设置不能为空");return false;
+                }
+                var drawId = "{$info.id}";
+                $.ajax({
+                    url:"{:U('LuckydrawSystem/prize_addAjax')}",
+                    type:'get',
+                    data:{prize:prize,number:number,odds:odds,drawId:drawId,prize_id:prize_id},
+                    success:function(data) {
+                        if(data.code == '200'){
+                            layer.msg(data.msg,{
+                                icon: 1,
+                                time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                            },function(){
+                                $("#remain_"+i).html(number);
+                            });
+                        }else{
+                            layer.alert(data.msg,{icon: 5});
+                        }
+                    }
+                })
+            }
+
+            //删除奖品
+            function delete_btn(i,prize_id) {
+                $.ajax({
+                    url:"{:U('LuckydrawSystem/prize_deleteAjax')}",
+                    type:'get',
+                    data:{prize_id:prize_id},
+                    success:function(data) {
+                        if(data.code == '200'){
+                            layer.msg(data.msg,{
+                                icon: 1,
+                                time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                            },function(){
+                                window.location.reload();
+                            });
+                        }else{
+                            layer.alert(data.msg,{icon: 5});
+                        }
+                    }
+                })
+            }
+
+
+
+            function yulan(title,url){
+                layer.open({
+                    type: 2,
+                    title: title,
+                    shadeClose: true,
+                    shade: 0.8,
+                    area: ['380px', '90%'],
+                    content: url
+                }); 
+            }
+            $('.win_act').click(function(){
+                var edit_url = $(this).attr('act_url');
+                $.dialog({
+                    id: 'win_act',
+                    height: 550,
+                    width: 1100,
+                    padding: '0',
+                    content: "url:" + edit_url
+                });
+            });
+            $(".sortE").blur(function(){
+                $.ajax({
+                    type: "post",
+                    url: "{:U('Admin/editSort')}",
+                    data: { "id":$(this).attr("data_id"),"sort":$(this).val(),"table":$(this).attr("data_table") }
+               });
+            });
+            $(".statusE").click(function(){
+                var obj = $(this);
+                $.ajax({
+                    type: "post",
+                    url: "{:U('Admin/editStatus')}",
+                    data: { "id":$(this).attr("data_id"),"status":$(this).attr("data_statusE"),"table":$(this).attr("data_table") },
+                    success: function (msg) {
+                        obj.attr("data_statusE",msg.status);
+                        obj.text(msg.message);
+                    }
+               });
+            });
+            $(".statusEALL1").click(function(){
+                var ids = (getCheckedBox("tab_list"));
+                if(ids){
+                    $.ajax({
+                        type: "post",
+                        url: "{:U('Admin/editStatusALL')}",
+                        data: { "ids":ids,"status":2,"table":"{$model_info.name}" },
+                        success: function (msg) {
+                            window.location.reload();
+                        }
+                   });
+                }else{
+                    alert("请至少选中一项");
+                }
+            });
+            $(".statusEALL2").click(function(){
+                var ids = (getCheckedBox("tab_list"));
+                if(ids){
+                    $.ajax({
+                        type: "post",
+                        url: "{:U('Admin/editStatusALL')}",
+                        data: { "ids":ids,"status":1,"table":"{$model_info.name}" },
+                        success: function (msg) {
+                            window.location.reload();
+                        }
+                   });
+                }else{
+                    alert("请至少选中一项");
+                }
+            });
+        </script>
+    </body>
+</html>

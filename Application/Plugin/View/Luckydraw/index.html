@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="ie ie6 lt8 lt9 lt10 lt11"><![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7 lt8 lt9 lt10 lt11"><![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8 lt9 lt10 lt11"><![endif]-->
+<!--[if (gt IE 9) | !(IE)]><!-->
+<html><!--<![endif]-->
+<head>
+
+    <title>小果兔元宵节抽奖活动</title>
+    <meta name="keywords" content="{$seo_keyword}"/>
+    <meta name="description" content="{$seo_description}"/>
+    <include file="Home@Public:key"/>
+    <link rel="stylesheet" href="__PUBLIC__/Plug/choujiang/css/demo.css" type="text/css"/>
+</head>
+
+<body>
+<!--con_box Begin-->
+<div class="con_box">
+    <a class="mobile-bon" href="javascript:void(0);"></a>
+    <a href="javascript:;" class="mobile-mask"></a>
+    <include file="Home@Public:header"/>
+
+    <!--main Begin-->
+    <!--S页面主体内容-->
+    <div class="con_box clearfix">
+        <!--面包屑导航-->
+        <div class="current">
+            <div class="wrap clearfix">
+                <span class="span01"><a href="#">幸运大抽奖</a></span>
+                <span class="span02"><a href="javascript:history.go(-1);">返回&gt;&gt;</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="con_box lucky_conBg clearfix">
+        <!--页面主体内容-->
+        <div class="wrap">
+            <div class="lucky_box clearfix">
+                <div class="lucky_title">
+                    <img src="__PUBLIC__/Plug/choujiang/images/lucky_title.png" alt="">
+                </div>
+                <!-- 1.幸运大转盘 -->
+                <div class="turntable-bg fl">
+                    <h4>您有<span id="span_per"
+                                style="color:#f00;font-weight:bold;font-size: 1.5em;vertical-align: bottom;">1</span>次的抽奖的机会
+                    </h4>
+
+                    <div class="pointer">
+                        <img style="width: 100%;" src="__PUBLIC__/Plug/choujiang/images/pointer.png" alt="pointer"/>
+                    </div>
+                    <div class="rotate">
+                        <img style="width: 100%;" id="rotate" src="__PUBLIC__/Plug/choujiang/images/turntable.png"
+                             alt="turntable"/>
+                    </div>
+                </div>
+                <!-- 2.说明 -->
+                <div class="lucky_explain fl">
+                    <div class="active_rule">
+                        <ol>
+                            <li>1、在<span style="font-weight: bold;">2月9号、2月10号、2月11号</span> 三天进行。</li>
+                            <li>2、会员登录后方可参与</li>
+                            <li>3、每位会员，每天只可参与一次抽奖。</li>
+                        </ol>
+                    </div>
+                    <div class="win_list">
+                        <div class="myscroll">
+                            <dl class="myscroll_title clearfix">
+                                <dt class="fl">中奖用户</dt>
+                                <dd class="fr">奖品名称</dd>
+                            </dl>
+                            <ul>
+                                <volist name="data_log" id="vo">
+                                <li>
+                                    <span class="span_l fl">{$vo.username}</span>
+                                    <span class="span_r fr">{$vo.prize}</span>
+                                </li>
+                                </volist>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--E页面主体内容-->
+    <!--获奖弹框-->
+    <div class="bgfix">
+        <div class="lucky_bgcon">
+            <h3></h3>
+            <p id="luck_txt"></p>
+            <button class="lucky_btn">确定</button>
+        </div>
+    </div>
+    <!--main End-->
+    <include file="Home@Public:footer"/>
+
+</div>
+<!--con_box End-->
+<!--JS 文件-->
+<script type="text/javascript" src="__PUBLIC__/Plug/choujiang/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Plug/choujiang/js/awardRotate.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var rotateTimeOut = function () {
+            $('#rotate').rotate({
+                angle: 0,
+                animateTo: 2160,
+                duration: 8000,
+                callback: function () {
+                    alert('网络超时，请检查您的网络设置！');
+                }
+            });
+        };
+        var bRotate = false;
+
+        var rotateFn = function (awards, angles, txt ,h3txt) {
+            bRotate = !bRotate;
+            $('#rotate').stopRotate();
+            $('#rotate').rotate({
+                angle: 0,
+                animateTo: angles + 1800,
+                duration: 8000,
+                callback: function () {
+//                    $('#luck_txt').html(txt);
+//                    $('div.bgfix').show();
+                    msg_alert(h3txt,txt);
+                    bRotate = !bRotate;
+                }
+            })
+        };
+
+        //弹窗
+        function msg_alert(h3txt,txt) {
+            $('.lucky_bgcon > h3').text(h3txt);
+            $('#luck_txt').html(txt);
+            $('div.bgfix').show();
+        }
+
+        //操作转盘
+        function choujiang(vtext) {
+
+                var span_per = $("#span_per").text();
+                if(vtext == 0){
+                    rotateFn(0, 234, '谢谢参与，节日快乐！',"好可惜,没中奖!");
+                }else if(vtext == 1){
+                    rotateFn(1, 17, '恭喜您:抽中【华为P9】1台','恭喜，您中奖了！');
+                }else if(vtext == 6){
+                    rotateFn(1, 54, '恭喜您:抽中【30元话费】1张','恭喜，您中奖了！');
+                }else if(vtext == 13){
+                    rotateFn(2, 89, '恭喜您:抽中【300元代金卷】1张','恭喜，您中奖了！');
+                }else if(vtext == 3){
+                    rotateFn(3, 124, '恭喜您:抽中【100元话费】1张','恭喜，您中奖了！');
+                }else if(vtext == 15){
+                    rotateFn(4, 160, '恭喜您:抽中【100M流量卷】1张','恭喜，您中奖了！');
+                }else if(vtext == 7){
+                    rotateFn(5, 197, '恭喜您:抽中【10元话费】1张','恭喜，您中奖了！');
+                }else if(vtext == 5){
+                    rotateFn(7, 269,'恭喜您:抽中【50元话费】1张','恭喜，您中奖了！' );
+                }else if(vtext == 8){
+                    rotateFn(8, 305, '恭喜您:抽中【200元代金卷】1张','恭喜，您中奖了！');
+                }else if(vtext == 2){
+                    rotateFn(9, 342, '恭喜您:抽中【888元现金】','恭喜，您中奖了！');
+                }else{
+
+                }
+                span_per--;
+                if(span_per <0){
+                    span_per = 0;
+                }
+                $('#span_per').text(span_per);
+
+
+        }
+
+        $('.pointer').click(function () {
+            $.ajax({
+                url:"{:U('Luckydraw/choujiang')}",
+                type:'get',
+                data:{},
+                success:function(data) {
+                    if(data.v < 0){
+                        msg_alert(data.yes);
+                    }else{
+                        choujiang(data.v);
+                    }
+
+                }
+            })
+
+        });
+
+        $('.lucky_btn').click(function(){
+            $('div.bgfix').hide();
+        })
+    });
+    function rnd(n, m) {
+        return Math.floor(Math.random() * (m - n + 1) + n)
+    }
+</script>
+
+<!-- 中奖名单 -->
+<script src="__PUBLIC__/Plug/choujiang/js/scroll.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('.myscroll').myScroll({
+            speed: 40, //数值越大，速度越慢
+            rowHeight: 26 //li的高度
+        });
+    });
+</script>
+</body>
+</html>
+

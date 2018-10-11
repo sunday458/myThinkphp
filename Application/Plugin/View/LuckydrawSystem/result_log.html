@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+    <head>
+        <include file="Base@Common:head" />
+        <script src="__ROOT__/Public/task/jquery-ui-1.10.2.custom.min.js" ></script>
+        <script src="__ROOT__/Public/task/jquery.hotkeys.js" ></script>
+        <script src="__ROOT__/Public/task/app.js" ></script>
+        <link rel="stylesheet" type="text/css" href="__ROOT__/Public/task/tasktable.css">
+    </head>
+    <body class="theme-orange">
+        <div class="main_2" id="main_2">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="box fixed">
+                            <div class="box-title fixed">
+                                <h3> {$model_info.catname} </h3>
+                            </div>
+                            <div class="box-content_x fixed">
+                                <div class="form-horizontal">
+                                    <div class="serach_address" >
+                                        <span style="margin-right: 20px;"><a class="btn btn-primary" href="{:U('LuckydrawSystem/drawList')}">返回</a></span>
+                                        <span>只看中奖：
+                                            <select name="status" id="btn_use" class="input_price">
+                                                <option value="0" <if condition="$iswin eq 0">selected</if> >否</option>
+                                                <option value="1" <if condition="$iswin eq 1">selected</if> >是</option>
+                                            </select>
+                                        </span>
+
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="box-content nopadding">
+                                <table class="table table-hover table-nomargin">
+                                    <thead>
+                                        <tr>
+                                            <td width="20"><span class="checkboxWrapper"><input type="checkbox" id="all" class="SetItemRow-276_1" tabindex="-1" ><label></label></span></td>
+                                            <td>ID</td>
+                                            <td>用户名</td>
+                                            <td>手机号</td>
+                                            <td>奖品</td>
+                                            <td>参与时间</td>
+                                            <td>是否中奖</td>
+                                            <td>操作</td>
+                                        </tr> 
+                                    </thead>
+                                    <tbody>
+                                    <volist name="list" id="ili">
+                                        <tr>
+                                            <td><span class="checkboxWrapper"><input type="checkbox"  tabindex="-1" name="tab_list" value="{$ili.id}"><label></label></span></td>
+                                            <td width="20">{$ili.id}</td>
+                                            <td><a href="{:U('Admin/Admin/manage_member',array('keyword'=>$ili['minfo']['username']))}" target="_blank">{$ili['minfo']['username']}</a> </td>
+                                            <td>{$ili['minfo']['mobile']}</td>
+                                            <td>{$ili.result_described}</td>
+                                            <td>{:date('Y-m-d H:i:s',$ili['add_time'])}</td>
+                                            <td><if condition="$ili.is_win eq 0">未中奖<else/>已中奖</if></td>
+                                            <td>
+                                                <div class="bon_icon">
+                                                    <if condition="($ili.is_win neq 0)">
+                                                        <if condition="($ili.is_sure eq 0)">
+                                                        <button class="btn btn-primary" id="btn_{$key}" onclick="fajiang_btn('{$key}','{$ili.id}');" data-id="{$key}" >发奖</button>
+                                                            <else/><span style="color: #fb8225">已发奖</span>
+                                                        </if>
+                                                    </if>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </volist>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <div class="bontom_bon fixed">
+                                <div class="page">
+                                    <span class="wtotal">总计:{$count}</span>
+                                    {$page}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="__ROOT__/Public/js/layer/layer.js" ></script>
+        <script>
+            $("#btn_use").change(function () {
+                var drid = "{$draw_id}";
+                var iswin = $("#btn_use").val();
+                window.location.href = "{:U('LuckydrawSystem/result_log')}&draw_id="+drid+"&is_win="+iswin;
+            });
+
+
+            //发奖
+            function fajiang_btn(i,rid) {
+                $.ajax({
+                    url:"{:U('LuckydrawSystem/get_result_sure')}",
+                    type:'get',
+                    data:{rid:rid},
+                    success:function(data) {
+                        if(data.code == '200'){
+                            layer.msg(data.msg,{
+                                icon: 6,
+                                time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                            },function(){
+//                                window.location.reload();
+                                $("#btn_"+i).html("已发");
+                                $("#btn_"+i).removeClass("btn-primary");
+                                $("#btn_"+i).addClass("btn-danger"); // 追加样式
+                                $("#btn_"+i).attr("disabled",'disabled');
+                            });
+                        }else{
+                            layer.alert(data.msg,{icon: 5});
+                        }
+                    }
+                })
+            }
+
+        </script>
+    </body>
+</html>

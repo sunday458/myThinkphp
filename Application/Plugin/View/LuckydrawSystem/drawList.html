@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+    <head>
+        <include file="Base@Common:head" />
+        <script src="__ROOT__/Public/task/jquery-ui-1.10.2.custom.min.js" ></script>
+        <script src="__ROOT__/Public/task/jquery.hotkeys.js" ></script>
+        <script src="__ROOT__/Public/task/app.js" ></script>
+        <link rel="stylesheet" type="text/css" href="__ROOT__/Public/task/tasktable.css">
+    </head>
+    <body class="theme-orange">
+        <div class="main_2" id="main_2">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="box fixed">
+                            <div class="box-title fixed">
+                                <h3> {$model_info.catname} </h3>
+                            </div>
+                            <div class="box-content_x fixed">
+                                <div class="form-horizontal">
+                                    <div class="serach_address" >
+                                        <button class="btn btn-primary creat">创建抽奖</button>
+                                        <!--<form action="" method="get" style="float: left;">
+                                            <input type="hidden" name="m" value="Admin" />
+                                            <input type="hidden" name="c" value="Admin" />
+                                            <input type="hidden" name="a" value="{$Think.ACTION_NAME}" />
+                                            <input type="hidden" name="model_id" value="{$model_id}" />
+                                            <span><input type="text" name="keyword" class="input_price" value="{$_GET.keyword}"></span>
+                                            <span>
+                                                <select name="status" class="input_price">
+                                                    <option value="">状态</option>
+                                                    <?php foreach($projectType as $pk=>$pv){ ?>
+                                                    <option value="{$pk}" <if condition="$_GET['status'] eq $pk && $_GET['status']!=''">selected</if>>{$pv}</option>
+                                                    <?php } ?>
+                                                </select>
+                                            </span>
+                                            
+                                            
+                                            	
+                                            &lt;!&ndash;时间筛选&ndash;&gt;
+                                            <link rel="stylesheet" type="text/css" href="__ROOT__/Public/datetimepicker/jquery.datetimepicker.css"/>
+                                    		<script src="__ROOT__/Public/datetimepicker/jquery.datetimepicker.js"></script>
+                                            <span>
+                                             <input name="addtime" id="time" type="text" value="" class="inp_x date_input" placeholder="搜索月份起始时间"  />
+		                                        <script type="text/javascript">
+		                                            $('#time').datetimepicker();
+		                                        </script>
+                                            </span>
+                                            至
+                                            <span>
+                                             <input name="exptime" id="exptime" type="text" value="" class="inp_x date_input" placeholder="搜索月份结束时间"  />
+		                                        <script type="text/javascript">
+		                                            $('#exptime').datetimepicker();
+		                                        </script>
+                                            </span>
+                                        		
+                                            <span>
+                                                <button type="submit" class="btn btn-primary">搜索</button>
+                                                <a class="btn btn-primary" href="<?php echo get_url().'&excel=1';?>">导出</a>
+                                            </span>
+                                        </form>-->
+                                        
+                                        <!--<form action="{:U('Admin/region')}" method="post" style="float: right; margin-left: 10px;">-->
+                                            <!--<span><input type="text" name="region" class="input_price" value="{$_GET.keyword}"></span>-->
+                                            <!--<span>-->
+                                            	<!--<input type="hidden" name="model_id" value="{$model_id}" />-->
+                                                <!--<button type="submit" class="btn btn-primary">搜索地区</button> 
+                                                <a class="btn btn-primary" href="{:U('Admin/daochusousuo_log',array('area2'=>$region))}">导出地区</a>-->
+                                            <!--</span>-->
+                                        <!--</form>-->
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="box-content nopadding">
+                                <table class="table table-hover table-nomargin">
+                                    <thead>
+                                        <tr>
+                                            <td width="20"><span class="checkboxWrapper"><input type="checkbox" id="all" class="SetItemRow-276_1" tabindex="-1" ><label></label></span></td>
+                                            <td>ID</td>
+                                            <td>抽奖标题</td>
+                                            <td>开始时间</td>
+                                            <td>结束时间</td>
+                                            <td>创建时间</td>
+                                            <td>状态</td>
+                                            <td>操作</td>
+                                        </tr> 
+                                    </thead>
+                                    <tbody>
+                                    <volist name="list" id="ili">
+                                        <tr>
+                                            <td><span class="checkboxWrapper"><input type="checkbox"  tabindex="-1" name="tab_list" value="{$ili.id}"><label></label></span></td>
+                                            <td width="20">{$ili.id}</td>
+                                            <td>{$ili.title}</td>
+                                            <td>{:date('Y-m-d H:i:s',$ili['start_time'])}</td>
+                                            <td>{:date('Y-m-d H:i:s',$ili['end_time'])}</td>
+                                            <td>{:date('Y-m-d H:i:s',$ili['add_time'])}</td>
+                                            <td>{$ili.status}</td>
+                                            <td>
+                                                <div class="bon_icon">
+                                                    <span class="edit"><a href="{:U('LuckydrawSystem/add', array('id' => $ili['id']))}">编辑</a></span>
+                                                    <span class="edit"><a href="{:U('LuckydrawSystem/prize_add', array('id' => $ili['id']))}">奖品</a></span>
+                                                	<span class="edit"><a href="{:U('LuckydrawSystem/result_log', array('draw_id' => $ili['id']))}">查看</a></span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </volist>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <div class="bontom_bon fixed">
+                                <div class="page">
+                                    <span class="wtotal">总计:{$count}</span>
+                                    {$page}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="__ROOT__/Public/js/layer/layer.js" ></script>
+        <script>
+            $(".creat").click(function () {
+               window.location.href = "{:U('LuckydrawSystem/add')}";
+            });
+            function yulan(title,url){
+                layer.open({
+                    type: 2,
+                    title: title,
+                    shadeClose: true,
+                    shade: 0.8,
+                    area: ['380px', '90%'],
+                    content: url
+                }); 
+            }
+            $('.win_act').click(function(){
+                var edit_url = $(this).attr('act_url');
+                $.dialog({
+                    id: 'win_act',
+                    height: 550,
+                    width: 1100,
+                    padding: '0',
+                    content: "url:" + edit_url
+                });
+            });
+            $(".sortE").blur(function(){
+                $.ajax({
+                    type: "post",
+                    url: "{:U('Admin/editSort')}",
+                    data: { "id":$(this).attr("data_id"),"sort":$(this).val(),"table":$(this).attr("data_table") }
+               });
+            });
+            $(".statusE").click(function(){
+                var obj = $(this);
+                $.ajax({
+                    type: "post",
+                    url: "{:U('Admin/editStatus')}",
+                    data: { "id":$(this).attr("data_id"),"status":$(this).attr("data_statusE"),"table":$(this).attr("data_table") },
+                    success: function (msg) {
+                        obj.attr("data_statusE",msg.status);
+                        obj.text(msg.message);
+                    }
+               });
+            });
+            $(".statusEALL1").click(function(){
+                var ids = (getCheckedBox("tab_list"));
+                if(ids){
+                    $.ajax({
+                        type: "post",
+                        url: "{:U('Admin/editStatusALL')}",
+                        data: { "ids":ids,"status":2,"table":"{$model_info.name}" },
+                        success: function (msg) {
+                            window.location.reload();
+                        }
+                   });
+                }else{
+                    alert("请至少选中一项");
+                }
+            });
+            $(".statusEALL2").click(function(){
+                var ids = (getCheckedBox("tab_list"));
+                if(ids){
+                    $.ajax({
+                        type: "post",
+                        url: "{:U('Admin/editStatusALL')}",
+                        data: { "ids":ids,"status":1,"table":"{$model_info.name}" },
+                        success: function (msg) {
+                            window.location.reload();
+                        }
+                   });
+                }else{
+                    alert("请至少选中一项");
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+    <head>
+        <include file="Base@Common:head" />
+        <script src="__ROOT__/Public/task/jquery-ui-1.10.2.custom.min.js" ></script>
+        <script src="__ROOT__/Public/task/jquery.hotkeys.js" ></script>
+        <script src="__ROOT__/Public/js/layer/layer.js" ></script>
+        <script src="__ROOT__/Public/task/app.js" ></script>
+        <link rel="stylesheet" type="text/css" href="__ROOT__/Public/task/tasktable.css">
+        <link rel="stylesheet" type="text/css" href="__ROOT__/Public/datetimepicker/jquery.datetimepicker.css"/>
+        <script src="__ROOT__/Public/datetimepicker/jquery.datetimepicker.js"></script>
+    </head>
+    <body class="theme-orange">
+        <div class="main_2" id="main_2">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="box fixed">
+                            <div class="box-title fixed">
+                                <h3> <if condition="$info.id eq ''">创建<else/>修改{$info.title}</if>活动 </h3>
+                            </div>
+                            <form id="form_area" action="" id="signupForm" onsubmit="return false;" method="post" enctype="multipart/form-data" autocomplete="off">
+                                <div class="box-content_x">
+                                    <div class="form-horizontal">
+                                        <div class="control-group fixed">
+                                            <label for="select" class="control-label"><font class="font_red"></font> 活动标题：</label>
+                                            <div class="controls">
+                                                <input type="text" id="title" name="title" value="{$info.title}">
+                                                <span class="help-block"></span>
+                                            </div>
+                                        </div>
+                                        <div class="control-group fixed">
+                                            <label for="select" class="control-label"><font class="font_red"></font> 活动描述：</label>
+                                            <div class="controls">
+                                                <input type="text" id="description" name="description" value="{$info.description}">
+                                                <span class="help-block"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="control-group fixed">
+                                            <label for="select" class="control-label"><font class="font_red"></font> 活动时间：</label>
+                                            <div class="controls">
+                                                 <span>
+                                                 <input name="start_time" id="time" type="text" value="{:date('Y/m/d H:i:s',$info['start_time'])}" style="width: 130px;" class="inp_x date_input" placeholder="开始时间"  />
+                                                    <script type="text/javascript">
+                                                        $('#time').datetimepicker();
+                                                    </script>
+                                                </span>
+                                                至
+                                                <span>
+                                                 <input name="end_time" id="exptime" type="text" value="{:date('Y/m/d H:i:s',$info['end_time'])}" style="width: 130px;" class="inp_x date_input" placeholder="结束时间"  />
+                                                    <script type="text/javascript">
+                                                        $('#exptime').datetimepicker();
+                                                    </script>
+                                                </span>
+                                                <span class="help-block"></span>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div class="form-actions fixed">
+                                            <button type="submit" id="btn_submit" class="btn btn-primary">提交</button>
+                                            <button type="button" onclick="history.back();" class="btn btn-primary">返回</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            //提交表单
+            $("#btn_submit").click(function(e){
+
+
+                var title = $("#title").val();
+                var des = $("#description").val();
+                var time = $("#time").val();
+                var exptime = $("#exptime").val();
+
+
+                if(title == ''){
+                    layer.msg("抽奖标题不能为空");
+                    return false;
+                }
+                if(time == ''){
+                    layer.msg("开始时间不能为空");
+                    return false;
+                }
+                if(exptime == ''){
+                    layer.msg("结束时间不能为空");
+                    return false;
+                }
+
+                var url = "{:U('LuckydrawSystem/add')}";
+                var tid = "{$info.id}";
+                $.ajax({
+                    url:url,
+                    type:'POST',
+                    data:{title:title,description:des,start_time:time, end_time:exptime,id:tid},
+                    success:function(data) {
+                        if(data.code == '200'){
+                            layer.msg(data.msg,{
+                                icon: 1,
+                                time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                            },function(){
+//                            window.location.href = "{:U('Index/sucaiList')}";
+                                window.location.reload();
+                            });
+                        }else{
+                            layer.alert(data.msg,{icon: 5});
+
+                        }
+                    }
+                })
+            });
+        </script>
+
+
+    </body>
+</html>
