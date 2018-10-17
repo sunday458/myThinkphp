@@ -907,34 +907,51 @@ WHERE TABLE_SCHEMA = '{$db_name}'.$where ";
 	    }
 	    return $new_array;
 	}
-    
 
+	/**
+     * @brief 正则取 url 参数
+     * @param $url
+     * @return
+     * @demo $url = 'http://xxx.com/hufu?id=100&code=xyz' || $url = 'http://xxx.com/index/draw_api/draw.html?code=xyz';
+     */
+    function getUrlKeyValue($url)
+    {
+        $result = array();
+        $mr = preg_match_all('/(\?|&)(.+?)=([^&?]*)/i', $url, $matchs);
+        if ($mr !== false) {
+            for ($i = 0; $i < $mr; $i++) {
+                $result[$matchs[2][$i]] = $matchs[3][$i];
+            }
+        }
+        return $result;
+    }
+    
     function test_number()
     {
-		$down  = '  1912  ';
-		$up    = '  23456781011  ';
-		$first = '  8  '; 
+		$down  = '    ';
+		$up    = '    ';
+		$first = '    '; 
 		$yu_1  = '  =>  |   ';
 		$yu_2  = '  =>  |   ';
 		$yu_3  = '  =>  |   ';
 		$yu_4  = '  =>  |   '; 
 
-		$lang = '    ';
+		$lang = '   ';
 
-		$t0   = '  9-6 112-4  ';
 		$t0   = '    ';
-		$t1   = '  37- 8910-4   ';
+		$t0   = '    ';
+		$t1   = '    ';
 		$t2   = '    ';
 		$t3   = '    ';
 		$tip  = '    ';
 
 		$table = "
-		   1			7
-		   2		    8
-		   3			9
-		   4/9=37105	10
-		   5		    11/8=1
-		   6=10+11		12
+		   1	        7
+		   2		    8       
+		   3		    9
+		   4			10
+		   5		    11
+		   6			12
 		";
 
 		$style = '   ';

@@ -1606,7 +1606,6 @@ class Test3Controller extends Controller{
 
 	public function test_try()
 	{
-	
 		$add_data = array('name' =>'beijing' ,'age'=>23,'nickname'=>'haha' );
 		$update_data = array('age' =>age+1 ,'name'=>1111 );	
 		//$add_result = $model->add($add_data)->buildSql();
@@ -1616,7 +1615,6 @@ class Test3Controller extends Controller{
         {
         	$model = M('user','ts_');
         	//$add_result = $model->add($add_data);
-        	$model->where(array('id'=>1))->save($update_data);
         	echo $model->getLastSql();exit(); 
             //$add_result = $model->add($add_data);
             if($add_result['code']==200)
@@ -1633,15 +1631,17 @@ class Test3Controller extends Controller{
 
             $this->ajaxReturn($return_data);
         }
-        catch (Exception $e)
+        catch (\Exception $e)
         {
-        	throw new Exception();
+        	//throw new Exception();
             $error = $e->getMessage();
             $return_data['code'] = 4022;
             $return_data['message'] = '网络原因,异常数据,终止执行！';
             $data['error'] = $error;
             $return_data['data'] = $data;
             //$this->ajaxReturn($return_data);
+            echo '<pre>';
+            var_dump($return_data);
             var_dump($error);exit();
             return false;
             exit();
@@ -1696,9 +1696,42 @@ class Test3Controller extends Controller{
          var_dump($img_base64); //返回图片的base64
     }
 
+    //递归模型 5次退出
+    public function test_rand($array,$in=1)
+    {
+        $num = rand(1,6);
+        var_dump($num);echo '<br>';
+        if(in_array($num, $array))
+        {
+            $in+=1;
+            if($in>5)
+            {
+                $num = '';
+            }
+            else
+            {
+                $num = $this->test_rand($array,$in);           
+            }
+        }
+        return $num;
+    }
+
     public function jisuan()
     {
-		$url = 'http://beauty.yanmiban.com/hufu/';
+    	//测试递5次上限
+    	$array = array(1,2,3,4,);
+    	$num = $this->test_rand($array);
+    	dump($num);exit();
+    	$code = 'C1000gWmFSsNv2DC4c89';
+    	echo substr_replace($code,'******',5,11);exit();
+		$url = 'http://beauty.yanmiban.com/hufu?a=11116&code=xyz';
+		//$url = 'http://www.wxmem.com/index/draw_api/draw/code/xyz';
+		//$url = 'http://www.wxmem.com/index/draw_api/draw.html?code=xyz';
+		$result = getUrlKeyValue($url);
+	    
+		var_dump(substr($url,0,strpos($url,"&")));exit();
+		var_dump($result);exit();
+		var_dump(parse_url($url));exit();
 		var_dump(strpos($url, 'http://'));exit();
 		$value = array(
 		    array('name'=>'liming','age'=>20),
