@@ -121,6 +121,10 @@ class LuckydrawController extends Controller
         //var_dump($arr);exit();
         $proSum = array_sum($arr);//抽奖值字段总和
         $shang = 10000-$proSum;//没有奖的概率
+        /*提醒！ 
+         *①奖品表没设置谢谢参与(没中奖选项),随着奖品数量减少到0,无奖概率是逐渐提高替代原先奖品的概率，直至100%
+         *②如果奖品表设置无奖的选项，则下面的无奖励概率不需要用到，变为奖品表无奖项目来作为补充替代
+         */
         //如果不到100%，则剩下的为无奖概率
         if($shang){
             $arr[] = $shang;
