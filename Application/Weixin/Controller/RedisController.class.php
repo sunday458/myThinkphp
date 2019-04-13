@@ -10,6 +10,9 @@ class RedisController extends Controller
 {
     protected $objRedis;
     public $timeout = 3;
+
+    private $minNum = 60; //单个用户每分访问数(令牌桶算法)
+    private $dayNum = 25; //单个用户每天总的访问量(令牌桶算法)
 	
     /**
      * @desc 设置redis实例
@@ -59,10 +62,11 @@ class RedisController extends Controller
         $u_id = rand(1000,2000);
         $num = 10; //秒杀人员上限
         //当前人数少于 上限人员时，继续参与秒杀
-        $lock_name = $this->getLockCacheKey($redis_name); //锁名
+        //$lock_name = $this->getLockCacheKey($redis_name); //锁名
+        $lock_name =$redis_name; //锁名
         $this->lock($lock_name);//加锁
         //$redis->watch($redis_name); //监听,当监听值发生变化则失败
-        if($redis->lLen($redis_name) <$num)
+        if($redis->lLen($redis_name) < $num)
         {
             //$redis->multi($redis_name); //事务开始
             //$newExpire = $this->getLock($redis_name);
@@ -238,9 +242,10 @@ class RedisController extends Controller
         }
         $redis = $this->objRedis;
         do {
-            if($acquired = ($redis->setnx("Lock:{$key}", time()))) { 
+        if($acquired = ($redis->setnx("Lock:{$key}", time()))) { 
                 // 如果redis不存在，则成功
-                $redis->expire($key, $expire);//锁的过期时间,防止执行异常锁一直在
+                //$redis->expire($key, $expire);//锁的过期时间,防止执行异常锁一直在
+                $redis->expire("Lock:{$key}", $expire);//锁的过期时间,防止执行异常锁一直在
                 break;
             }
 
@@ -303,6 +308,92 @@ class RedisController extends Controller
     *1.READ读锁（共享锁）：如果以这种方式锁定表，那么在锁定的过程中所有客户端只有读这张表 
     *2.WRITE：写锁（排它锁）：如果以这种方式锁定表，那么只有锁定这个表的客户端可以操作这张表，其他客户端只能操作个表直到锁释放为止。
      */ 
+    
+    public function test_api()
+    {
+        $params = I();
+        $u_id = rand(1000,1200);
+        $result = $this->minLimit();
+        /*var_dump($result);
+        if(!$result['status']){
+            $this->ajaxReturn($result);
+        }*/
+        echo 'success'.date('Y-m-d H:i:s');
+    }
+    
+
+    /**
+     * @param      string  $uid    The uid
+     * 令牌桶算法 PHP + Redis
+     */
+    public function minLimit($uid=12000)
+    {
+        $minNumKey = $uid . '_minNum';
+        $dayNumKey = $uid . '_dayNum';
+        $resMin    = $this->getRedis($minNumKey, $this->minNum, 60);
+        $resDay    = $this->getRedis($dayNumKey, $this->dayNum, 86400);
+
+        echo '<pre>';    
+        $redis = new Redis();
+        $min_data = $redis->get($minNumKey);
+        $day_data = $redis->get($dayNumKey);
+        /*var_dump($redis->del($minNumKey));
+        var_dump($redis->del($dayNumKey));*/
+        var_dump($min_data,$day_data);
+
+        //并发超次数或者总次数上限返回提示
+        if (!$resMin['status'] || !$resDay['status']) {
+            //exit($resMin['msg'] . $resDay['msg']);
+            var_dump($resMin['msg'] . $resDay['msg']);
+        }
+        var_dump($resMin,$resDay);
+    }
+
+    /**
+     * @param      <type>   $key      The key
+     * @param      integer  $initNum  The initialize number
+     * @param      integer  $expire   The expire
+     * @return     array    The redis.
+     * @desc  令牌桶算法实现
+     * 代码要点：
+        *1：首先定义规则
+        *单个用户每分钟访问次数（$minNum），单个用户每天总的访问次数（$dayNum），接口总的访问次数等不同的规则
+        *2：计算速率
+        *该代码示例以秒为最小的时间单位，速率=访问次数/时间（$initNum / $expire）
+        *3：每次访问后补充的令牌个数计算方式
+        *获取上次访问的时间即上次存入令牌的时间，计算当前时刻与上次访问的时间差乘以速率就是此次需要补充的令牌个数，注意补充令牌后总的令牌个数不能大于初始化的令牌个数，以补充数和初始化数的最小值为准
+        *4：程序流程
+        *第一次访问时初始化令牌个数（$minNum），存入Redis同时将当前的时间戳存入以便计算下次需要补充的令牌个数。第二次访问时获取剩余的令牌个数，并添加本次应该补充的令牌个数，补充后如何令牌数>0则当前访问是有效的可以访问，否则令牌使用完毕不可访问。先补充令牌再判断令牌是否>0的原因是由于还有速率这个概念即如果上次剩余的令牌为0但是本次应该补充的令牌>1那么本次依然可以访问。
+        *5：针对并发的处理
+        *使用Redis的乐观锁机制
+     */
+    public function getRedis($key, $initNum, $expire)
+    {
+        $nowtime  = time();
+        $result   = ['status' => true, 'msg' => ''];
+        $redis = new Redis();
+        $redis->watch($key); // Watch 命令用于监视一个(或多个) key ，如果在事务执行之前这个(或这些) key 被其他命令所改动，那么事务将被打断(配合redis事务使用)
+        $limitVal = $redis->get($key); //有坑？TP自带的redis 返回结果都是数组形式，自动转化？
+        if ($limitVal) {
+            //$limitVal = json_decode($limitVal, true);
+            $newNum   = min($initNum, ($limitVal['num'] - 1) + (($initNum / $expire) * ($nowtime - $limitVal['time'])));
+            if ($newNum > 0) {
+                $redisVal = json_encode(['num' => $newNum, 'time' => time()]);
+            } else {
+                return ['status' => false, 'msg' => '当前时刻令牌消耗完！'];
+            }
+        } else {
+            $redisVal = json_encode(['num' => $initNum, 'time' => time()]);
+        }
+
+        $redis->multi();  // Multi 命令用于标记一个事务块的开始
+        $redis->set($key, $redisVal);
+        $rob_result = $redis->exec(); // EXEC 命令原子性(atomic)执行，redis的事务机制是很简单的，不存在回滚，配合watch 使用
+        if (!$rob_result) {
+            $result = ['status' => false, 'msg' => '访问频次过多！'];
+        }
+        return $result;
+    }
 
 
 
